@@ -563,3 +563,10 @@ and how many odds are in my array */
 
 // const sum = (arr) => arr.reduce((accum, val) => accum + val);
 // console.log(sum([1, 2, 3]));
+
+
+/*Questions #5 - the instructions say you should write a
+ function called dynamicPush but it’s actually already written
+  as pushCreator and the test file will expect it to be called
+   pushCreator, so please ignore what the instructions call
+    the function and go with pushCreator*/
