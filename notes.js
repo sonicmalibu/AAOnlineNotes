@@ -288,14 +288,14 @@ for (let i = 0; i < nestedArr.length; i++) {
     // });
     // console.log(max);
 
-    // function list(names) {
-    //     let res = names.reduce(function(resString, name) {
-    //         return resString + ' ' + name;
-    //      }, "Names:" )
-    //      return res;
-    // }
-    // console.log(list(['Rick', 'Morty']))
-    // console.log(list(['Shawn']));
+    function list(names) {
+        let res = names.reduce(function(resString, name) {
+            return resString + ' ' + name;
+         }, "Names:" )
+         return res;
+    }
+    console.log(list(['Rick', 'Morty']))
+    console.log(list(['Shawn']));
 
 
     // Map ****************************************************************
