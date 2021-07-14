@@ -164,28 +164,50 @@
 // 2. For words that start with a non-vowel, move all letters that come
 // **before the first vowel** to the **end of the word** then add 'ay'
 
-function pigLatinWord(word) {
-    let vowels =
-    'a' ||
-    'e' ||
-    'i' ||
-    'o' ||
-    'u';
-    let added = 'yay';
-    let addedNoVowel = word[0].concat(added);
-    for (let i = 0; i < word.length; i++) {
-        let letter = word[i];
-        if (letter === vowels) {
-            return word.concat(added);
-       } else {
-        return word.slice(vowels[0]) + addedNoVowel;
+// function pigLatinWord(word) {
+//     let vowels = "aeiouAEIOU";;
+//     let added = 'yay';
 
-       }
+//     for (let i = 0; i < word.length; i++) {
+//         let letter = word[i];
+//         if (vowels.includes(word[0])) {
+//             return word.concat(added);
+//        } else if (vowels.includes(letter)) {
+//         let first = word.slice(i);
+//         let second = word.slice(0, i);
+//         let final = first.concat(second);
+//         return final.concat(added);
 
-    }
-    }
+//        }
 
-  console.log(pigLatinWord("apple")); //=> "appleyay"
-  console.log(pigLatinWord("eat")); //=> "eatyay"
-  console.log(pigLatinWord("banana")); //=> "ananabay"
-  console.log(pigLatinWord("trash")); //=> "ashtray"
+//     }
+//     return word;
+// }
+
+//********************************
+
+    // function pigLatinWord(word) {
+        // let vowels = "aeiou";
+        // if (vowels.includes(word[0])) {
+        //     return word + "yay";
+        // }
+        // for (let i = 0; i < word.length; i++) {
+        //     let letter = word[i];
+        //     if (vowels.includes(letter)) {
+        //         let firstPart = word.slice(i);
+        //         let secondPart = word.slice(0, i);
+        //         return firstPart + secondPart + "yay";
+        //     }
+
+        // }
+        // return word;
+    // }
+
+//   console.log(pigLatinWord("apple")); //=> "appleyay"
+//   console.log(pigLatinWord("eat")); //=> "eatyay"
+//   console.log(pigLatinWord("banana")); //=> "ananabay"
+//   console.log(pigLatinWord("trash")); //=> "ashtray"
+
+
+
+// While Loop Translation (*)*********************************************
