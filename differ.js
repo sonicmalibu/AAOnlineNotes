@@ -165,8 +165,25 @@
 // **before the first vowel** to the **end of the word** then add 'ay'
 
 function pigLatinWord(word) {
-    // your code here...
-  };
+    let vowels =
+    'a' ||
+    'e' ||
+    'i' ||
+    'o' ||
+    'u';
+    let added = 'yay';
+    let addedNoVowel = word[0].concat(added);
+    for (let i = 0; i < word.length; i++) {
+        let letter = word[i];
+        if (letter === vowels) {
+            return word.concat(added);
+       } else {
+        return word.slice(vowels[0]) + addedNoVowel;
+
+       }
+
+    }
+    }
 
   console.log(pigLatinWord("apple")); //=> "appleyay"
   console.log(pigLatinWord("eat")); //=> "eatyay"
