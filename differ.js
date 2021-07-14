@@ -78,16 +78,15 @@
 
 // Fizz Buzz***********************************
 function fizzBuzz(max) {
-    console.log(max);
+
     for (let i = 0; i < max; i++) {
-        let num = max[i];
-        if (num % 3 === 0) {
-            return num;
-        } else if (num % 5 === 0) {
-            return num;
-        }
+       if (i % 3 === 0 && i % 5 !== 0) {
+           console.log(i);
+       } else if (i % 5 === 0 && i % 3 !== 0) {
+           console.log(i);
+       }
     }
-    return num++;
+
 }
 
 
