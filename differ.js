@@ -243,30 +243,52 @@
 
 
 // For Loop Translation (*)*******************************************
-function aCounter(word) {
-    let index = 0;
-    let count = 0;
-    while (index < word.length) {
-      let char = word[index];
-      if (char === "a" || char === "A") {
-        count += 1;
-      }
-      index++;
-    }
-    return count;
-  };
+// function aCounter(word) {
+//     let index = 0;
+//     let count = 0;
+//     while (index < word.length) {
+//       let char = word[index];
+//       if (char === "a" || char === "A") {
+//         count += 1;
+//       }
+//       index++;
+//     }
+//     return count;
+//   };
 
-function aCounter(word) {
-    let count = 0;
-      for (let index = 0; index < word.length; index++) {
-        let char = word[index];
-        if (char === "a" || char === "A") {
-          count += 1;
-        }
-      }
-      return count;
-    };
+// function aCounter(word) {
+//     let count = 0;
+//       for (let index = 0; index < word.length; index++) {
+//         let char = word[index];
+//         if (char === "a" || char === "A") {
+//           count += 1;
+//         }
+//       }
+//       return count;
+//     };
 
-    console.log(aCounter("apple")); // => 1
-    console.log(aCounter("appleapple")); // => 2
-    console.log(aCounter("aAapple")); // => 3
+//     console.log(aCounter("apple")); // => 1
+//     console.log(aCounter("appleapple")); // => 2
+//     console.log(aCounter("aAapple")); // => 3
+
+
+
+// Is Prime**************************************************
+// function isPrime(number) {
+// if (number < 2) {
+//     return false;
+// }
+// for (let i = 2; i < number; i++) {
+//     if (number % i === 0) {
+//         return false;
+//     }
+// }
+// return true;
+// }
+
+
+// console.log(isPrime(2)); // => true
+// console.log(isPrime(10)); // => false
+// console.log(isPrime(11)); // => true
+// console.log(isPrime(9)); // => false
+// console.log(isPrime(2017)); // => true
