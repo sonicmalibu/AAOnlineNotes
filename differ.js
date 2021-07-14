@@ -62,15 +62,40 @@
 
 
 // Is Subtracting************************************
-function isSubstring(searchString, subString) {
-    let search = searchString.toLowerCase();
-    let sub = subString.toLowerCase();
+// function isSubstring(searchString, subString) {
+//     let search = searchString.toLowerCase();
+//     let sub = subString.toLowerCase();
 
-    return search.indexOf(sub) !== -1;
+//     return search.indexOf(sub) !== -1;
 
 
+// }
+
+// console.log(isSubstring("The cat went to the store", "he cat went")); // => true
+// console.log(isSubstring("Time to program", "time")); // => true
+// console.log(isSubstring("Jump for joy", "joys")); // => false
+
+
+// Fizz Buzz***********************************
+function fizzBuzz(max) {
+    console.log(max);
+    for (let i = 0; i < max; i++) {
+        let num = max[i];
+        if (num % 3 === 0) {
+            return num;
+        } else if (num % 5 === 0) {
+            return num;
+        }
+    }
+    return num++;
 }
 
-console.log(isSubstring("The cat went to the store", "he cat went")); // => true
-console.log(isSubstring("Time to program", "time")); // => true
-console.log(isSubstring("Jump for joy", "joys")); // => false
+
+fizzBuzz(20); // prints out:
+3
+5
+6
+9
+10
+12
+18
