@@ -91,6 +91,7 @@ function fizzBuzz(max) {
 }
 
 
+
 fizzBuzz(20); // prints out:
 3
 5
