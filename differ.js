@@ -301,7 +301,7 @@ function reverseString(str) {
         let letter = str[i];
         reverse += letter;
     }
-    return reversed;
+    return reverse;
 }
 
 
