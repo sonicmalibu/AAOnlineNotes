@@ -354,21 +354,58 @@
 
 
 // My Includes********************************************************
-function myIncludes(arr, target) {
-    // return arr.includes(target);
-    for (let i = 0; i < arr.length; i++) {
-        let index = arr[i];
-        if (index === target) {
-            return true;
-        }
+// function myIncludes(arr, target) {
+//     // return arr.includes(target);
+//     for (let i = 0; i < arr.length; i++) {
+//         let index = arr[i];
+//         if (index === target) {
+//             return true;
+//         }
 
-    }
-    return false;
-}
+//     }
+//     return false;
+// }
 
 
-console.log(myIncludes(['a', 'b', 'c', 'e'], 'c')); // true
-console.log(myIncludes(['a', 'b', 'c', 'e'], 'a')); // true
-console.log(myIncludes(['a', 'b', 'c', 'e'], 'z')); // false
-console.log(myIncludes([43, -7, 11, 13], 11)); // true
-console.log(myIncludes([43, -7, 11, 13], 1)); // false
+// console.log(myIncludes(['a', 'b', 'c', 'e'], 'c')); // true
+// console.log(myIncludes(['a', 'b', 'c', 'e'], 'a')); // true
+// console.log(myIncludes(['a', 'b', 'c', 'e'], 'z')); // false
+// console.log(myIncludes([43, -7, 11, 13], 11)); // true
+// console.log(myIncludes([43, -7, 11, 13], 1)); // false
+
+
+
+// Sum Array Recall*********************************************************
+// function sumArray(array) {
+//     let sum = 0;
+//     for (let i = 0; i < array.length; i++) {
+//         let num = array[i];
+//         sum += num;
+//     }
+//     return sum;
+// }
+
+// console.log(sumArray([5, 6, 4])); // => 15
+// console.log(sumArray([7, 3, 9, 11])); // => 30
+
+
+// // Factors Of******************************************************************
+// let factorsOf = function(num) {
+//     let array = [];
+//     for (let i = 0; i <= num; i++) {
+//         if (num % i === 0) {
+//             array.push(i);
+//         }
+
+//     }
+//     return array;
+// }
+
+
+
+// console.log(factorsOf(5)); // [ 1, 5 ]
+// console.log(factorsOf(8)); // [ 1, 2, 4, 8 ]
+// console.log(factorsOf(9)); // [ 1, 3, 9 ]
+// console.log(factorsOf(10)); // [ 1, 2, 5, 10 ]
+// console.log(factorsOf(24)); // [ 1, 2, 3, 4, 6, 8, 12, 24 ]
+// console.log(factorsOf(2017)); // [ 1, 2017 ]
