@@ -296,10 +296,12 @@
 
 // Reverse String***********************************************
 function reverseString(str) {
-    console.log(str.length);
-    for (let i = 0; i = str.length; i++) {
-
+    let reverse = '';
+    for (let i = str.length - 1; i >= 0; i--) {
+        let letter = str[i];
+        reverse += letter;
     }
+    return reversed;
 }
 
 
