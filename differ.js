@@ -295,15 +295,32 @@
 
 
 // Reverse String***********************************************
-function reverseString(str) {
-    let reverse = '';
-    for (let i = str.length - 1; i >= 0; i--) {
-        let letter = str[i];
-        reverse += letter;
-    }
-    return reverse;
-}
+// function reverseString(str) {
+//     let reverse = '';
+//     for (let i = str.length - 1; i >= 0; i--) {
+//         let letter = str[i];
+//         reverse += letter;
+//     }
+//     return reverse;
+// }
 
 
-console.log(reverseString('fish')); // 'hsif'
-console.log(reverseString('marathon')); // 'nohtaram'
+// console.log(reverseString('fish')); // 'hsif'
+// console.log(reverseString('marathon')); // 'nohtaram'
+
+
+// Range**************************************************************
+// let range = function(min, max) {
+//     let array = [];
+//     for (let i = min; i <= max; i++) {
+//         array.push(i);
+//     }
+//     return array;
+// }
+
+
+
+// console.log(range(3, 10)); // [ 3, 4, 5, 6, 7, 8, 9, 10 ]
+// console.log(range(217, 220)); // [ 217, 218, 219, 220 ]
+// console.log(range(-5, 1)); // [ -5, -4, -3, -2, -1, 0, 1 ]
+// console.log(range(10, 3)); // []
