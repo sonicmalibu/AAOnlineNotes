@@ -530,3 +530,25 @@
 // console.log(evenNumbers(7)); // [ 2, 4, 6 ]
 // console.log(evenNumbers(12)); // [ 2, 4, 6, 8, 10 ]
 // console.log(evenNumbers(15)); // [ 2, 4, 6, 8, 10, 12, 14 ]
+
+
+// Is Prime Recall*******************************************
+// function isPrime(number) {
+
+//     if (number < 2) {
+//         return false;
+//     }
+//     for (let i = 2; i < number; i++) {
+//         if (number % i === 0) {
+//             return false;
+//         }
+
+//     }
+//     return true;
+// }
+
+// console.log(isPrime(2)); // => true
+// console.log(isPrime(10)); // => false
+// console.log(isPrime(11)); // => true
+// console.log(isPrime(9)); // => false
+// console.log(isPrime(2017)); // => true
