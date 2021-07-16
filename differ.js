@@ -434,26 +434,29 @@
 // console.log(myIndexOf([43, -7, 11, 13], 1)); // -1
 
 // Vowel Counter Recall*******************************************
-// function countVowels(word) {
+function countVowels(word) {
+    let vowels = 'aeiou';
+    let counter = 0;
+    for (let i = 0; i < word.length; i++) {
+        let letter = word[i];
+        if (vowels.includes(letter)) {
+            counter++;
+        }
+        // if (
+        //     letter === 'a' ||
+        //     letter === 'e' ||
+        //     letter === 'i' ||
+        //     letter === 'o' ||
+        //     letter === 'u') {
+        //     counter++;
+        // }
+    }
+    return counter;
+}
 
-//     let counter = 0;
-//     for (let i = 0; i < word.length; i++) {
-//         let letter = word[i];
-//         if (
-//             letter === 'a' ||
-//             letter === 'e' ||
-//             letter === 'i' ||
-//             letter === 'o' ||
-//             letter === 'u') {
-//             counter++;
-//         }
-//     }
-//     return counter;
-// }
-
-//   console.log(countVowels("bootcamp")); // => 3
-//   console.log(countVowels("apple")); // => 2
-//   console.log(countVowels("pizza")); // => 2
+  console.log(countVowels("bootcamp")); // => 3
+  console.log(countVowels("apple")); // => 2
+  console.log(countVowels("pizza")); // => 2
 
 
 // Has Vowel***********************************************
@@ -489,3 +492,23 @@
 
 // console.log(fizzBuzz(12)); // [ 3, 5, 6, 9, 10 ]
 // console.log(fizzBuzz(20)); // [ 3, 5, 6, 9, 10, 12, 18 ]
+
+
+
+// First Vowel**********************************************
+// function firstVowel(str) {
+//     let vowels = 'aeiou';
+//     for (let i = 0; i < str.length; i++) {
+//         let letter = str[i];
+
+
+//     }
+
+//     return null;
+// }
+
+// console.log(firstVowel('battery')); // 'a'
+// console.log(firstVowel('tunnel')); // 'u'
+// console.log(firstVowel('dog')); // 'o'
+// console.log(firstVowel('conventional')); // 'o'
+// console.log(firstVowel('rhythm')); // null
