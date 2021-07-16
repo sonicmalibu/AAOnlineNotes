@@ -457,17 +457,35 @@
 
 
 // Has Vowel***********************************************
-function hasVowel(str) {
-    let vowels = 'aeiou';
-    for (let i = 0; i < str.length; i++) {
-        let letter = str[i];
-        if (vowels.includes(letter)) {
-            return true;
-        }
-    }
-return false;
-}
+// function hasVowel(str) {
+//     let vowels = 'aeiou';
+//     for (let i = 0; i < str.length; i++) {
+//         let letter = str[i];
+//         if (vowels.includes(letter)) {
+//             return true;
+//         }
+//     }
+// return false;
+// }
 
-console.log(hasVowel('dog')); // true
-console.log(hasVowel('conventional')); // true
-console.log(hasVowel('rhythm')); // false
+// console.log(hasVowel('dog')); // true
+// console.log(hasVowel('conventional')); // true
+// console.log(hasVowel('rhythm')); // false
+
+
+// Fizz Buzz Array*****************************************
+// function fizzBuzz(max) {
+//     let arr = [];
+//     for (let i = 1; i < max; i++) {
+
+//          if ((i % 3 === 0 || i % 5 === 0) && !(i % 3 === 0 && i % 5 === 0)) {
+//              arr.push(i);
+
+//          }
+
+//     }
+//     return arr;
+// }
+
+// console.log(fizzBuzz(12)); // [ 3, 5, 6, 9, 10 ]
+// console.log(fizzBuzz(20)); // [ 3, 5, 6, 9, 10, 12, 18 ]
