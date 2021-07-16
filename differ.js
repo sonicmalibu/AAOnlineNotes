@@ -552,3 +552,23 @@
 // console.log(isPrime(11)); // => true
 // console.log(isPrime(9)); // => false
 // console.log(isPrime(2017)); // => true
+
+
+
+// Last Vowel********************************************
+// function lastVowel(str) {
+//     let vowels = 'aeiouAEIOU';
+//     for (let i = str.length - 1; i >= 0; i--) {
+//         let letter = str[i];
+//         if (vowels.includes(letter)) {
+//             return letter;
+//         }
+//     }
+//     return null;
+// }
+
+// console.log(lastVowel('battery')); // 'e'
+// console.log(lastVowel('TUNNEL')); // 'E'
+// console.log(lastVowel('dog')); // 'o'
+// console.log(lastVowel('conventional')); // 'a'
+// console.log(lastVowel('rhythm')); // null
