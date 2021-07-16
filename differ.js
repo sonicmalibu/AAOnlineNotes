@@ -432,3 +432,20 @@
 // console.log(myIndexOf(['a', 'b', 'c', 'e'], 'z')); // -1
 // console.log(myIndexOf([43, -7, 11, 13, 43], 43)); // 0
 // console.log(myIndexOf([43, -7, 11, 13], 1)); // -1
+
+// Vowel Counter Recall*******************************************
+function countVowels(word) {
+    let vowels = 'aeiouAEIOU';
+    for (let i = 0; i < word.length; i++) {
+        let letter = word[i];
+        if (letter === vowels) {
+            return i;
+        }
+
+    }
+
+  };
+
+  console.log(countVowels("bootcamp")); // => 3
+  console.log(countVowels("apple")); // => 2
+  console.log(countVowels("pizza")); // => 2
