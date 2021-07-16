@@ -454,3 +454,20 @@
 //   console.log(countVowels("bootcamp")); // => 3
 //   console.log(countVowels("apple")); // => 2
 //   console.log(countVowels("pizza")); // => 2
+
+
+// Has Vowel***********************************************
+function hasVowel(str) {
+    let vowels = 'aeiou';
+    for (let i = 0; i < str.length; i++) {
+        let letter = str[i];
+        if (vowels.includes(letter)) {
+            return true;
+        }
+    }
+return false;
+}
+
+console.log(hasVowel('dog')); // true
+console.log(hasVowel('conventional')); // true
+console.log(hasVowel('rhythm')); // false
