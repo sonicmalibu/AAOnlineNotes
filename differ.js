@@ -496,19 +496,37 @@
 
 
 // First Vowel**********************************************
-function firstVowel(str) {
-    let vowels = 'aeiou';
-    for (let i = 0; i < str.length; i++) {
-        let letter = str[i];
-        if (vowels.includes(letter)) {
-            return letter;
-        }
-    }
-    return null;
-}
+// function firstVowel(str) {
+//     let vowels = 'aeiou';
+//     for (let i = 0; i < str.length; i++) {
+//         let letter = str[i];
+//         if (vowels.includes(letter)) {
+//             return letter;
+//         }
+//     }
+//     return null;
+// }
 
-console.log(firstVowel('battery')); // 'a'
-console.log(firstVowel('tunnel')); // 'u'
-console.log(firstVowel('dog')); // 'o'
-console.log(firstVowel('conventional')); // 'o'
-console.log(firstVowel('rhythm')); // null
+// console.log(firstVowel('battery')); // 'a'
+// console.log(firstVowel('tunnel')); // 'u'
+// console.log(firstVowel('dog')); // 'o'
+// console.log(firstVowel('conventional')); // 'o'
+// console.log(firstVowel('rhythm')); // null
+
+
+// Even Numbers******************************************
+// let evenNumbers = function(max) {
+//     let arr = [];
+//     for (let i = 1; i < max; i++) {
+//         if (i % 2 === 0) {
+//             arr.push(i);
+//         }
+
+//     }
+//     return arr;
+// }
+
+
+// console.log(evenNumbers(7)); // [ 2, 4, 6 ]
+// console.log(evenNumbers(12)); // [ 2, 4, 6, 8, 10 ]
+// console.log(evenNumbers(15)); // [ 2, 4, 6, 8, 10, 12, 14 ]
