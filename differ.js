@@ -588,3 +588,22 @@
 
 // console.log(pitPat(18)); // [ 4, 6, 8, 16, 18 ]
 // console.log(pitPat(30)); // [ 4, 6, 8, 16, 18, 20, 28, 30 ]
+
+
+// Remove Last Vowel*******************************
+// function removeLastVowel(word) {
+//     let vowels = 'aeiouAEIOU';
+//     for (let i = word.length -1; i >= 0; i--) {
+//         let letter = word[i];
+//         if (vowels.includes(letter)) {
+//             return word.slice(0, i) + word.slice(i + 1);
+//         }
+//     }
+//     return word;
+// }
+
+
+// console.log(removeLastVowel('bootcamp')); // 'bootcmp'
+// console.log(removeLastVowel('better')); // 'bettr'
+// console.log(removeLastVowel('graph')); // 'grph'
+// console.log(removeLastVowel('thy')); // 'thy'
