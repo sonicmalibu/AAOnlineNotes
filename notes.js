@@ -288,14 +288,14 @@ for (let i = 0; i < nestedArr.length; i++) {
     // });
     // console.log(max);
 
-    function list(names) {
-        let res = names.reduce(function(resString, name) {
-            return resString + ' ' + name;
-         }, "Names:" )
-         return res;
-    }
-    console.log(list(['Rick', 'Morty']))
-    console.log(list(['Shawn']));
+    // function list(names) {
+    //     let res = names.reduce(function(resString, name) {
+    //         return resString + ' ' + name;
+    //      }, "Names:" )
+    //      return res;
+    // }
+    // console.log(list(['Rick', 'Morty']))
+    // console.log(list(['Shawn']));
 
 
     // Map ****************************************************************
@@ -565,8 +565,23 @@ and how many odds are in my array */
 // console.log(sum([1, 2, 3]));
 
 
-/*Questions #5 - the instructions say you should write a
- function called dynamicPush but it’s actually already written
-  as pushCreator and the test file will expect it to be called
-   pushCreator, so please ignore what the instructions call
-    the function and go with pushCreator*/
+// Increments
+// var++ = post increment
+    // Example: var a = 0, b = 10;
+                    // var a = b++;
+    // Result: a = 10 and b = 11
+
+// ++var pre increment
+    // Example: var a = 0, b = 10;
+                    // var a = ++b;
+    // Result: a = 11 and b = 11
+
+// var-- = post decrement
+    // Example: var a = 0, b = 10;
+                    // var a = b--;
+    // Result: a = 10 and b = 9
+
+// --var = predecrement
+    // Example: var a = 0, b = 10;
+                    // var a = --b;
+    // Result: a = 9 and b = 9
