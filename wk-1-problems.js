@@ -693,3 +693,20 @@
 // console.log(twoSum([1, 7, 3, 0, 2], 6)); // false
 // console.log(twoSum([4, 6, 2, 3], 8)); // true
 // console.log(twoSum([4, 6, 2, 3], 11)); // false
+
+
+// Rotate Right*******************************************************************
+function rotateRight(array, num) {
+
+}
+
+
+
+
+let arr = ['a', 'b', 'c', 'd', 'e'];
+console.log(rotateRight(arr, 2)); // [ 'd', 'e', 'a', 'b', 'c' ]
+console.log(arr); // [ 'a', 'b', 'c', 'd', 'e' ]
+
+let animals = ['wombat', 'koala', 'opossum', 'kangaroo'];
+console.log(rotateRight(animals, 3)); // [ 'koala', 'opossum', 'kangaroo', 'wombat' ]
+console.log(animals); // [ 'wombat', 'koala', 'opossum', 'kangaroo' ]
