@@ -609,19 +609,28 @@
 // console.log(removeLastVowel('thy')); // 'thy'
 
 // Pairs Maker**************************************************
-function pairsMaker(arr) {
+// function pairsMaker(arr) {
+//     let newArr = [];
+// for (let i = 0; i < arr.length; i++) {
+//     let ele1 = arr[i];
+//     for (let j = i + 1; j < arr.length; j++) {
+//         let ele2 = arr[j];
+//         let combine = [ ele1, ele2];
+//         newArr.push(combine);
+//     }
+// }
+// return newArr;
+// }
 
-}
+// console.log(pairsMaker(['a', 'b', 'c', 'd'])); // =>
+// // [ [ 'a', 'b' ],
+// //   [ 'a', 'c' ],
+// //   [ 'a', 'd' ],
+// //   [ 'b', 'c' ],
+// //   [ 'b', 'd' ],
+// //   [ 'c', 'd' ] ]
 
-console.log(pairsMaker(['a', 'b', 'c', 'd'])); // =>
-// [ [ 'a', 'b' ],
-//   [ 'a', 'c' ],
-//   [ 'a', 'd' ],
-//   [ 'b', 'c' ],
-//   [ 'b', 'd' ],
-//   [ 'c', 'd' ] ]
-
-console.log(pairsMaker(['Rosemary', 'Alex', 'Connor'])); // =>
-// [ [ 'Rosemary', 'Alex' ],
-//   [ 'Rosemary', 'Connor' ],
-//   [ 'Alex', 'Connor' ] ]
+// console.log(pairsMaker(['Rosemary', 'Alex', 'Connor'])); // =>
+// // [ [ 'Rosemary', 'Alex' ],
+// //   [ 'Rosemary', 'Connor' ],
+// //   [ 'Alex', 'Connor' ] ]
