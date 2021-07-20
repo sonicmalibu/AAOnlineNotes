@@ -637,17 +637,35 @@
 
 
 // Min Value (*)***************************************************************
-function minValue(nums) {
-    let min = null;
-    for (let i = 0; i < nums.length; i++) {
-        let num = nums[i];
-        if (min === null || num < min) {
-            min = num;
-        }
-    }
-    return min;
-}
+// function minValue(nums) {
+//     let min = null;
+//     for (let i = 0; i < nums.length; i++) {
+//         let num = nums[i];
+//         if (min === null || num < min) {
+//             min = num;
+//         }
+//     }
+//     return min;
+// }
 
-console.log(minValue([4, 6, 3, 5, 2, 4])); // 2
-console.log(minValue([-2, -3, -7, 3 ])); // -7
-console.log(minValue([])); // null
+// console.log(minValue([4, 6, 3, 5, 2, 4])); // 2
+// console.log(minValue([-2, -3, -7, 3 ])); // -7
+// console.log(minValue([])); // null
+
+
+// Max Value (*)**********************************************************************
+// function maxValue(nums) {
+//     let max = null;
+//     for (let i = 0; i < nums.length; i++) {
+//         let num = nums[i];
+//         if (max === null || num > max) {
+//             max = num;
+//         }
+//     }
+//     return max;
+// }
+
+
+// console.log(maxValue([4, 6, 3, 5, 2, 4])); // 6
+// console.log(maxValue([-2, -3, -7, 3 ])); // 3
+// console.log(maxValue([])); // null
