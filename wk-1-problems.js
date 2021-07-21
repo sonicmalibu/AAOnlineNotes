@@ -723,7 +723,14 @@
 
 // Two Dimensional Sum*************************************************************
 function twoDimensionalSum(arr) {
-
+let sum = 0;
+for (let i = 0; i < arr.length; i++) {
+    let num1 = arr[i];
+    for (let j = 0; j < num1.length; j++) {
+        sum += num1[j];
+    }
+}
+return sum;
 }
 
 
