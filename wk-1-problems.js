@@ -750,11 +750,23 @@
 
 
 // Pig Latin Recall********************************************************
-function pigLatinWord(word) {
+// function pigLatinWord(word) {
+//     const vowels = ["a", "e", "i", "o", "u"];
+//     let vowelIndex = 0;
+//     if (vowels.includes(word[0])) {
+//         return word + "yay";
+//     } else {
+//         for (let char of word) {
+//             if (vowels.includes(char)) {
+//                 vowelIndex = word.indexOf(char);
+//                 break;
+//             }
+//         }
+//         return word.slice(vowelIndex) + word.slice(0, vowelIndex) + "ay";
+//     }
+//   };
 
-  };
-
-  console.log(pigLatinWord("apple")); //=> "appleyay"
-  console.log(pigLatinWord("eat")); //=> "eatyay"
-  console.log(pigLatinWord("banana")); //=> "ananabay"
-  console.log(pigLatinWord("trash")); //=> "ashtray"
+//   console.log(pigLatinWord("apple")); //=> "appleyay"
+//   console.log(pigLatinWord("eat")); //=> "eatyay"
+//   console.log(pigLatinWord("banana")); //=> "ananabay"
+//   console.log(pigLatinWord("trash")); //=> "ashtray"
