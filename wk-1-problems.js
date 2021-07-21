@@ -718,3 +718,24 @@
 // let animals = ['wombat', 'koala', 'opossum', 'kangaroo'];
 // console.log(rotateRight(animals, 3)); // [ 'koala', 'opossum', 'kangaroo', 'wombat' ]
 // console.log(animals); // [ 'wombat', 'koala', 'opossum', 'kangaroo' ]
+
+
+
+// Two Dimensional Sum*************************************************************
+function twoDimensionalSum(arr) {
+
+}
+
+
+let arr1 = [
+    [1, 3],
+    [-4, 7, 10],
+    [2]
+];
+console.log(twoDimensionalSum(arr1)); // 19
+
+let arr2 = [
+    [],
+    [3, 1, 2],
+];
+console.log(twoDimensionalSum(arr2)); // 6
