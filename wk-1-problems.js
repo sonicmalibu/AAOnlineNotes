@@ -184,7 +184,7 @@
 //     return word;
 // }
 
-//********************************
+//**********   ************   **********
 
     // function pigLatinWord(word) {
         // let vowels = "aeiou";
