@@ -837,3 +837,18 @@
 //   console.log(myIndexOf(['a', 'b', 'c', 'e'], 'z')); // -1
 //   console.log(myIndexOf([43, -7, 11, 13, 43], 43)); // 0
 //   console.log(myIndexOf([43, -7, 11, 13], 1)); // -1
+
+
+
+// Tripler*****************************************************
+// function tripler(num) {
+//     let newArr = [];
+//     for (let i = 0; i < num.length; i++) {
+//       newArr.push(num[i] * 3);
+
+//     }
+//     return newArr;
+//   }
+
+//   console.log(tripler([2, 7, 4])); // [ 6, 21, 12 ]
+//   console.log(tripler([-5, 10, 0, 11])); // [ -15, 30, 0, 33 ]
