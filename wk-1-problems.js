@@ -852,3 +852,20 @@
 
 //   console.log(tripler([2, 7, 4])); // [ 6, 21, 12 ]
 //   console.log(tripler([-5, 10, 0, 11])); // [ -15, 30, 0, 33 ]
+
+
+// Long Words********************************************************
+// let longWords = function(words) {
+//     let filteredWords = [];
+//     for (let i = 0; i < words.length; i++) {
+//         let word = words[i];
+//         if (word.length > 5) {
+//             filteredWords.push(word);
+//         }
+//     }
+//     return filteredWords;
+// }
+
+
+// console.log(longWords(['bike', 'skateboard','scooter', 'moped'])); // [ 'skateboard', 'scooter' ]
+// console.log(longWords(['couscous', 'soup', 'ceviche', 'solyanka' ,'taco'])); // [ 'couscous', 'ceviche', 'solyanka' ]
