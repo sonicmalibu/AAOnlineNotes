@@ -821,3 +821,19 @@
 //   console.log(avgVal([5, 10])); // 7.5
 //   console.log(avgVal([3, 7, 2, 1, 2])); // 3
 //   console.log(avgVal([])); // null
+
+// My Index Of Recall**********************************************************
+// function myIndexOf(arr, target) {
+//     for (let i = 0; i <= arr.length; i++) {
+//      if (target === arr[i]) {
+//       return i;
+//      }
+//     }
+//     return -1;
+//   }
+
+//   console.log(myIndexOf(['a', 'b', 'c', 'e'], 'c')); // 2
+//   console.log(myIndexOf(['a', 'b', 'c', 'e'], 'e')); // 3
+//   console.log(myIndexOf(['a', 'b', 'c', 'e'], 'z')); // -1
+//   console.log(myIndexOf([43, -7, 11, 13, 43], 43)); // 0
+//   console.log(myIndexOf([43, -7, 11, 13], 1)); // -1
