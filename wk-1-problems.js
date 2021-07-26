@@ -1080,3 +1080,23 @@
 
 // console.log(fizzBuzz(12)); // [ 3, 5, 6, 9, 10 ]
 // console.log(fizzBuzz(20)); // [ 3, 5, 6, 9, 10, 12, 18 ]
+
+
+
+// Longest Word***********************************************************************
+// function longestWord(sentence) {
+//     let split = sentence.split(' ');
+//     let longWord = '';
+//     for (let i = 0; i < split.length; i++) {
+//         let word = split[i];
+//         if (word.length > longWord.length) {
+//             longWord = word;
+//         }
+//     }
+//     return longWord;
+// };
+
+
+// console.log(longestWord('where did everyone go')); // 'everyone'
+// console.log(longestWord('prefer simplicity over complexity')); // 'simplicity'
+// console.log(longestWord('')); // ''
