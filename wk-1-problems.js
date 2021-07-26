@@ -1186,3 +1186,23 @@
 
 // console.log(abbreviateWords('what a wonderful place to live')); // what a wndrfl plc to live
 // console.log(abbreviateWords('she sends an excellent message ')); // she snds an xcllnt mssg
+
+
+
+// Contains Word*****************************************************************
+// function containsWord(sentence, target) {
+//     let split = sentence.split(' ');
+//     for (let i = 0; i < split.length; i++) {
+//         let word = split[i];
+//         if (word.toLowerCase() === target.toLowerCase()) {
+//             return true;
+//         }
+//     }
+//     return false;
+// }
+
+
+// console.log(containsWord('sounds like a plan', 'like')); // true
+// console.log(containsWord('They are great', 'they')); // true
+// console.log(containsWord('caterpillars are great animals', 'cat')); // false
+// console.log(containsWord('Cast the net', 'internet')); // false
