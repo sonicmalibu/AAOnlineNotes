@@ -1037,6 +1037,26 @@
 
 
 // Choose Primes*******************************************************************
+// function isPrime(num) {
+//     if (num < 2) {
+//         return false;
+//     } for (let i = 2; i < num; i++) {
+//         if (num % i === 0) {
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+// function choosePrimes(nums) {
+//     let arr = [];
+//     for (let i = 0; i < nums.length; i++) {
+//         let ele = nums[i];
+//         if (isPrime(ele)) {
+//             arr.push(ele);
+//         }
+//     }
+//     return arr;
+// }
 
 
 
