@@ -1154,3 +1154,35 @@
 // console.log(removeLastVowel('better')); // 'bettr'
 // console.log(removeLastVowel('graph')); // 'grph'
 // console.log(removeLastVowel('thy')); // 'thy'
+
+
+
+// Abbreviate Words***************************************************************
+// function abbreviate(word) {
+//     let vowels = 'aeiouAEIOU';
+//     let newWord = '';
+//     for (let i = 0; i < word.length; i++) {
+//         let letter = word[i];
+//         if (!vowels.includes(letter)) {
+//             newWord += letter;
+//         }
+//     }
+//     return newWord;
+// };
+
+// function abbreviateWords(sentence) {
+//     let split = sentence.split(' ');
+//     let arr = [];
+//     for (let i = 0; i < split.length; i++) {
+//         let char = split[i];
+//         if (char.length > 4) {
+//             arr.push(abbreviate(char));
+//         } else {
+//             arr.push(char);
+//         }
+//     }
+//     return arr.join(' ');
+// };
+
+// console.log(abbreviateWords('what a wonderful place to live')); // what a wndrfl plc to live
+// console.log(abbreviateWords('she sends an excellent message ')); // she snds an xcllnt mssg
