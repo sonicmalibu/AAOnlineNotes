@@ -1119,3 +1119,18 @@
 // console.log(abbreviate('wonderful')); // 'wndrfl'
 // console.log(abbreviate('mystery')); // 'mystry'
 // console.log(abbreviate('Accordian')); // 'ccrdn'
+
+
+
+// Product Array****************************************************************
+// function productWithReduce(nums) {
+//     let product = 1;
+//     for (let i = 0; i < nums.length; i++) {
+//         let num = nums[i];
+//         product *= num;
+//     }
+//     return product;
+// }
+
+// console.log(productWithReduce([10, 3, 5, 2])); // 300
+// console.log(productWithReduce([4, 3])); // 12
