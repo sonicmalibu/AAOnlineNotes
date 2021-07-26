@@ -984,3 +984,31 @@
 // console.log(initials('Mary La Grange')); // 'MLG'
 // console.log(initials('brian crawford scott')); // 'BCS'
 // console.log(initials('Benicio Monserrate Rafael del Toro Sánchez')); // 'BMRDTS'
+
+
+
+// Two Dimensional Priduct**********************************************************
+function twoDimensionalProduct(array) {
+    let sum = 1;
+    for (let i = 0; i < array.length; i++) {
+        let ele1 = array[i];
+            for (let j = 0; j < ele1.length; j++) {
+                let ele2 = ele1[j];
+                sum *= ele2;
+            }
+    }
+    return sum;
+};
+
+let arr1 = [
+    [6, 4],
+    [5],
+    [3, 1]
+];
+console.log(twoDimensionalProduct(arr1)); // 360
+
+let arr2 = [
+    [11, 4],
+    [2]
+];
+console.log(twoDimensionalProduct(arr2)); // 88
