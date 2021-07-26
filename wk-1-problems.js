@@ -963,3 +963,24 @@
 
 // console.log(reverseSentence('I am pretty hungry')); // 'hungry pretty am I'
 // console.log(reverseSentence('follow the yellow brick road')); // 'road brick yellow the follow'
+
+
+
+// Initials***********************************************************************
+// function initials(name) {
+//     let split = name.split(' ');
+//     let arr = [];
+//     for (let i = 0; i < split.length; i++) {
+//         let letter = split[i];
+//         arr.push(letter[0]);
+
+//     }
+//     let init = arr.join('');
+//     return init.toUpperCase();
+// }
+
+
+// console.log(initials('anna paschall')); // 'AP'
+// console.log(initials('Mary La Grange')); // 'MLG'
+// console.log(initials('brian crawford scott')); // 'BCS'
+// console.log(initials('Benicio Monserrate Rafael del Toro Sánchez')); // 'BMRDTS'
