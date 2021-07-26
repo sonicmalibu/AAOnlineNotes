@@ -589,40 +589,40 @@ and how many odds are in my array */
 
 //  Spiral Matrix******************************************************************
 // function spiralOrder(matrix) {
-// const result = [];
-// const rowCount = matrix.length;
-// const columnCount = matrix[0].length;
-// let startRow = 0;
-// let endRow = rowCount - 1;
-// let startColumn = 0;
-// let endColumn = columnCount - 1;
+//     const result = [];
+//     const rowCount = matrix.length;
+//     const columnCount = matrix[0].length;
+//     let startRow = 0;
+//     let endRow = rowCount - 1;
+//     let startColumn = 0;
+//     let endColumn = columnCount - 1;
 
-// while (endRow >= startRow && endColumn >= startColumn) {
-//   for (let column = startColumn; column <= endColumn; column++) {
-//     result.push(matrix[startRow][column]);
-//   }
-//   startRow++;
+//     while (endRow >= startRow && endColumn >= startColumn) {
+//       for (let i = startColumn; i <= endColumn; i++) {
+//         result.push(matrix[startRow][i]);
+//       }
+//       startRow++;
 
-//   for (let row = startRow; row <= endRow; row++) {
-//     result.push(matrix[row][endColumn]);
-//   }
-//   endColumn--;
-//   if (endRow >= startRow) {
-//     for (let column = endColumn; column >= startColumn; column--) {
-//       result.push(matrix[endRow][column]);
+//       for (let i = startRow; i <= endRow; i++) {
+//         result.push(matrix[i][endColumn]);
+//       }
+//       endColumn--;
+//       if (endRow >= startRow) {
+//         for (let i = endColumn; i >= startColumn; i--) {
+//           result.push(matrix[endRow][i]);
+//         }
+//       }
+//       endRow--;
+//       if (endColumn >= startColumn) {
+//         for (let i = endRow; i >= startRow; i--) {
+//           result.push(matrix[i][startColumn]);
+//         }
+//       }
+//       startColumn++;
 //     }
-//   }
-//   endRow--;
-//   if (endColumn >= startColumn) {
-//     for (let row = endRow; row >= startRow; row--) {
-//       result.push(matrix[row][startColumn]);
-//     }
-//   }
-//   startColumn++;
-// }
 
-// return result;
-// };
+//     return result;
+//     };
 
 
 // matrix = [[ 1, 2, 3],
