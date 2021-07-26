@@ -1062,3 +1062,21 @@
 
 // console.log(choosePrimes([36, 48, 9, 13, 19])); // [ 13, 19 ]
 // console.log(choosePrimes([5, 6, 4, 11, 2017])); // [ 5, 11, 2017 ]
+
+
+
+// Fizz Buzz Recall***************************************************************
+// function fizzBuzz(max) {
+//     let arr = [];
+//     for (let i = 0; i < max; i++) {
+
+//         if ((i % 3 === 0 || i % 5 === 0) && !(i % 3 === 0 && i % 5 === 0)) {
+//             arr.push(i);
+//         }
+
+//     }
+//     return arr;
+// }
+
+// console.log(fizzBuzz(12)); // [ 3, 5, 6, 9, 10 ]
+// console.log(fizzBuzz(20)); // [ 3, 5, 6, 9, 10, 12, 18 ]
