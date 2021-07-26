@@ -933,3 +933,17 @@
 // console.log(twoSum([1, 7, 3, 0, 2], 6)); // false
 // console.log(twoSum([4, 6, 2, 3], 8)); // true
 // console.log(twoSum([4, 6, 2, 3], 11)); // false
+
+
+// Reverse Sentence**************************************************************
+// function reverseSentence(sentence) {
+//     let split = sentence.split(' ');
+//     let arr = [];
+//     let pushed1 = arr.push(split);
+//     let reversed = arr.reverse();
+//     console.log(pushed1);
+// }
+
+
+// console.log(reverseSentence('I am pretty hungry')); // 'hungry pretty am I'
+// console.log(reverseSentence('follow the yellow brick road')); // 'road brick yellow the follow'
