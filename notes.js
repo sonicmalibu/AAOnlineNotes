@@ -587,7 +587,7 @@ and how many odds are in my array */
     // Result: a = 9 and b = 9
 
 
- // Spiral Matrix******************************************************************
+//  Spiral Matrix******************************************************************
 // function spiralOrder(matrix) {
 // const result = [];
 // const rowCount = matrix.length;
