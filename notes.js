@@ -585,3 +585,61 @@ and how many odds are in my array */
     // Example: var a = 0, b = 10;
                     // var a = --b;
     // Result: a = 9 and b = 9
+
+
+ // Spiral Matrix******************************************************************
+ function spiralOrder(matrix) {
+     let res = [];
+     for (let i = 0; i < matrix; i++) {
+         let row = matrix[i];
+            for (let j = 0; j < row; j++) {
+                let col = row[i];
+            }
+     }
+     let counter = 1;
+     let startRow = 0;
+     let endRow = matrix - 1;
+     let startColumn = 0;
+     let endColumn = matrix - 1;
+     while (startColumn <= endColumn && startRow <= endRow) {
+
+         for (let i = startColumn; i <= endColumn; i++) {
+             res[startRow][i] = counter;
+             counter++;
+         }
+         startRow++
+
+         for (let i = startRow; i <= endRow; i++) {
+             res[i][endColumn] = counter;
+             counter++;
+         }
+         endColumn--;
+
+         for (let i = endColumn; i >= startColumn; i--) {
+             res[endRow][i] = counter;
+             counter++;
+         }
+         endRow--;
+
+         for (let i = endRow; i >= startRow; i--) {
+             res[i][startColumn] = counter;
+             counter++
+         }
+         startColumn++
+     }
+     return res;
+}
+
+
+matrix = [[ 1, 2, 3],
+          [ 4, 5, 6],
+          [ 7, 8, 9]]
+
+console.log(spiralOrder(matrix)); // [1,2,3,6,9,8,7,4,5]
+
+matrix = [[1, 2, 3, 4],
+          [5, 6, 7, 8],
+          [9,10,11,12]]
+
+
+console.log(spiralOrder(matrix)); // [1,2,3,4,8,12,11,10,9,5,6,7]
