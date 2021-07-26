@@ -1100,3 +1100,22 @@
 // console.log(longestWord('where did everyone go')); // 'everyone'
 // console.log(longestWord('prefer simplicity over complexity')); // 'simplicity'
 // console.log(longestWord('')); // ''
+
+
+
+// Abbreviate**********************************************************************
+// function abbreviate(word) {
+//     let vowels = 'aeiouAEIOU';
+//     let newWord = '';
+//     for (let i = 0; i < word.length; i++) {
+//         let letter = word[i];
+//         if (!vowels.includes(letter)) {
+//             newWord += letter;
+//         }
+//     }
+//     return newWord;
+// }
+
+// console.log(abbreviate('wonderful')); // 'wndrfl'
+// console.log(abbreviate('mystery')); // 'mystry'
+// console.log(abbreviate('Accordian')); // 'ccrdn'
