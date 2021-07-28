@@ -1225,3 +1225,56 @@
 // console.log(uncompress('x3y4z2')); // 'xxxyyyyzz'
 // console.log(uncompress('a5b2c4z1')); // 'aaaaabbccccz'
 // console.log(uncompress('b1o2t1')); // 'boot'
+
+
+
+//  Spiral Matrix******************************************************************
+// function spiralOrder(matrix) {
+//     const result = [];
+//     const rowCount = matrix.length;
+//     const columnCount = matrix[0].length;
+//     let startRow = 0;
+//     let endRow = rowCount - 1;
+//     let startColumn = 0;
+//     let endColumn = columnCount - 1;
+
+//     while (endRow >= startRow && endColumn >= startColumn) {
+//       for (let i = startColumn; i <= endColumn; i++) {
+//         result.push(matrix[startRow][i]);
+//       }
+//       startRow++;
+
+//       for (let i = startRow; i <= endRow; i++) {
+//         result.push(matrix[i][endColumn]);
+//       }
+//       endColumn--;
+//       if (endRow >= startRow) {
+//         for (let i = endColumn; i >= startColumn; i--) {
+//           result.push(matrix[endRow][i]);
+//         }
+//       }
+//       endRow--;
+//       if (endColumn >= startColumn) {
+//         for (let i = endRow; i >= startRow; i--) {
+//           result.push(matrix[i][startColumn]);
+//         }
+//       }
+//       startColumn++;
+//     }
+
+//     return result;
+//     };
+
+
+// matrix = [[ 1, 2, 3],
+//           [ 4, 5, 6],
+//           [ 7, 8, 9]]
+
+// console.log(spiralOrder(matrix)); // [1,2,3,6,9,8,7,4,5]
+
+// matrix = [[1, 2, 3, 4],
+//           [5, 6, 7, 8],
+//           [9,10,11,12]]
+
+
+// console.log(spiralOrder(matrix)); // [1,2,3,4,8,12,11,10,9,5,6,7]
