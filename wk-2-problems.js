@@ -163,3 +163,13 @@
 // console.log(snakeToCamel('say_hello_world')); // 'SayHelloWorld'
 // console.log(snakeToCamel('app_academy_is_cool')); // 'AppAcademyIsCool'
 // console.log(snakeToCamel('APp_ACADEMY_iS_cOol')); // 'AppAcademyIsCool'
+
+
+
+// Yeller Map*****************************************************************************************
+function yeller(words) {
+        return words.toUpperCase();
+}
+
+console.log(yeller(['hello', 'world'])); // [ 'HELLO!', 'WORLD!' ]
+console.log(yeller(['kiwi', 'orange', 'mango'])); // [ 'KIWI!', 'ORANGE!', 'MANGO!' ]
