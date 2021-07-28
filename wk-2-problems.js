@@ -129,3 +129,16 @@
 
 // console.log(maxWithReduce([4, 6, 3, 5, 42, 4])); // 42
 // console.log(maxWithReduce([-2, -3, -7, 3])); // 3
+
+
+
+// Product Reduce*********************************************************************************
+// function productWithReduce(nums) {
+//     let total = nums.reduce(function(accum, ele) {
+//         return accum * ele;
+//     });
+//     return total;
+// }
+
+// console.log(productWithReduce([10, 3, 5, 2])); // 300
+// console.log(productWithReduce([4, 3])); // 12
