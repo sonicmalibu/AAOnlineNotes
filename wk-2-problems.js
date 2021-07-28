@@ -142,3 +142,24 @@
 
 // console.log(productWithReduce([10, 3, 5, 2])); // 300
 // console.log(productWithReduce([4, 3])); // 12
+
+
+
+// Snake To Camel Map******************************************************************************
+// function snakeToCamel(str) {
+//     let newStr = str.toLowerCase().split('_');
+//     let cap = newStr.map(function(letter) {
+//         for (let i = 0; i < letter.length; i++) {
+//             let index = letter[i].toUpperCase();
+//             return index.concat(letter.slice(1));
+
+
+//         }
+//     })
+//     return cap.join('');
+// }
+
+// console.log(snakeToCamel('snakes_go_hiss')); // 'SnakesGoHiss'
+// console.log(snakeToCamel('say_hello_world')); // 'SayHelloWorld'
+// console.log(snakeToCamel('app_academy_is_cool')); // 'AppAcademyIsCool'
+// console.log(snakeToCamel('APp_ACADEMY_iS_cOol')); // 'AppAcademyIsCool'
