@@ -167,15 +167,22 @@
 
 
 // Yeller Map*****************************************************************************************
-function yeller(words) {
-    let arr = [];
-        for (let i = 0; i < words.length; i++) {
-            let lol = words[i].toUpperCase() + '!';
-            arr.push(lol);
+// function yeller(words) {
+    // let arr = [];
+    //     for (let i = 0; i < words.length; i++) {
+    //         let lol = words[i].toUpperCase() + '!';
+    //         arr.push(lol);
 
-        }
-        return arr;
-}
+    //     }
+    //     return arr;
 
-console.log(yeller(['hello', 'world'])); // [ 'HELLO!', 'WORLD!' ]
-console.log(yeller(['kiwi', 'orange', 'mango'])); // [ 'KIWI!', 'ORANGE!', 'MANGO!' ]
+//     let arr = [];
+//     words.map(function(word) {
+//             let uppercasedWord = word.toUpperCase() + '!';
+//             arr.push(uppercasedWord);
+//     });
+//     return arr;
+// }
+
+// console.log(yeller(['hello', 'world'])); // [ 'HELLO!', 'WORLD!' ]
+// console.log(yeller(['kiwi', 'orange', 'mango'])); // [ 'KIWI!', 'ORANGE!', 'MANGO!' ]
