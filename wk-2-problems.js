@@ -42,3 +42,16 @@
 
 // console.log(tripler([2, 7, 4])); // [ 6, 21, 12 ]
 // console.log(tripler([-5, 10, 0, 11])); // [ -15, 30, 0, 33 ]
+
+
+
+// Long Words Filtered*****************************************************************************************
+// function longWords(words) {
+//     let filtered = words.filter(function(ele) {
+//             return ele.length > 5;
+//     });
+//     return filtered;
+// }
+
+// console.log(longWords(['bike', 'skateboard','scooter', 'moped'])); // [ 'skateboard', 'scooter' ]
+// console.log(longWords(['couscous', 'soup', 'ceviche', 'solyanka' ,'taco'])); // [ 'couscous', 'ceviche', 'solyanka' ]
