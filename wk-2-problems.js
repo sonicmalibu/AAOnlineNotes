@@ -45,7 +45,7 @@
 
 
 
-// Long Words Filtered*****************************************************************************************
+// Long Words Filter*****************************************************************************************
 // function longWords(words) {
 //     let filtered = words.filter(function(ele) {
 //             return ele.length > 5;
@@ -55,3 +55,21 @@
 
 // console.log(longWords(['bike', 'skateboard','scooter', 'moped'])); // [ 'skateboard', 'scooter' ]
 // console.log(longWords(['couscous', 'soup', 'ceviche', 'solyanka' ,'taco'])); // [ 'couscous', 'ceviche', 'solyanka' ]
+
+
+
+// Remove 'e' words filter****************************************************************************************
+// function removeEWords(sentence) {
+//     let str = sentence.split(' ');
+//     let arr = [];
+//     for (let i = 0; i < str.length; i++) {
+//         let letter = str[i];
+//         if (!letter.toLowerCase().includes('e')) {
+//             arr.push(letter);
+//         }
+//     }
+//     return arr.join(' ');
+// }
+
+// console.log(removeEWords('What time is it everyone?')); // 'What is it'
+// console.log(removeEWords('Enter the building')); // 'building'
