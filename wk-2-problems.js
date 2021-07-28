@@ -30,3 +30,15 @@
 // console.log(avgVal([5, 10])); // 7.5
 // console.log(avgVal([3, 7, 2, 1, 2])); // 3
 // console.log(avgVal([])); // null
+
+
+// Tripler Map*******************************************************************************************
+// function tripler(nums) {
+//     let multiplied = nums.map(function(num) {
+//         return num * 3;
+//     });
+//     return multiplied;
+// }
+
+// console.log(tripler([2, 7, 4])); // [ 6, 21, 12 ]
+// console.log(tripler([-5, 10, 0, 11])); // [ -15, 30, 0, 33 ]
