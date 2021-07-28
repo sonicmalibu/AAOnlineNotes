@@ -103,3 +103,12 @@
 
 
 // sum reduce***************************************************************************************
+// function sumWithReduce(nums) {
+//     let sum = nums.reduce(function(accum, ele) {
+//         return accum + ele;
+//     }, 0);
+//     return sum;
+// }
+
+// console.log(sumWithReduce([10, 3, 5, 2])); // 20
+// console.log(sumWithReduce([])); // 0
