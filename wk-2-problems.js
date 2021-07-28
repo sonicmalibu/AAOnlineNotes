@@ -168,7 +168,13 @@
 
 // Yeller Map*****************************************************************************************
 function yeller(words) {
-        return words.toUpperCase();
+    let arr = [];
+        for (let i = 0; i < words.length; i++) {
+            let lol = words[i].toUpperCase() + '!';
+            arr.push(lol);
+
+        }
+        return arr;
 }
 
 console.log(yeller(['hello', 'world'])); // [ 'HELLO!', 'WORLD!' ]
