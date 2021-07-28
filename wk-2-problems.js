@@ -112,3 +112,20 @@
 
 // console.log(sumWithReduce([10, 3, 5, 2])); // 20
 // console.log(sumWithReduce([])); // 0
+
+
+
+// Max Reduce****************************************************************************************
+// function maxWithReduce(nums) {
+//     let max = nums.reduce(function(accum, ele) {
+//             if (ele > accum) {
+//                 return ele;
+//             } else {
+//                 return accum;
+//             }
+//     });
+//     return max;
+// }
+
+// console.log(maxWithReduce([4, 6, 3, 5, 42, 4])); // 42
+// console.log(maxWithReduce([-2, -3, -7, 3])); // 3
