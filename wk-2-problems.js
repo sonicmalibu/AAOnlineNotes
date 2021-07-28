@@ -73,3 +73,30 @@
 
 // console.log(removeEWords('What time is it everyone?')); // 'What is it'
 // console.log(removeEWords('Enter the building')); // 'building'
+
+
+
+// Choosey Ending Filter*********************************************************************************************
+// function chooseyEndings(arr, suffix) {
+//    if (!Array.isArray(arr)) {
+//        return [];
+//    }
+//         return arr.filter(function(ele) {
+//        return ele.endsWith(suffix);
+//    })
+// }
+
+// console.log(chooseyEndings(['family', 'hound', 'catalyst', 'fly', 'timidly', 'bond'], 'ly'));
+// // [ 'family', 'fly', 'timidly' ]
+
+// console.log(chooseyEndings(['family', 'hound', 'catalyst', 'fly', 'timidly', 'bond'], 'nd'));
+// // [ 'hound', 'bond' ]
+
+// console.log(chooseyEndings(['simplicity', 'computer', 'felicity'], 'icity'));
+// // [ 'simplicity', 'felicity' ]
+
+// console.log(chooseyEndings(['simplicity', 'computer', 'felicity'], 'ily'));
+// // [ ]
+
+// console.log(chooseyEndings(17, 'ily'));
+// // [ ]
