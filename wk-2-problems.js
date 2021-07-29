@@ -392,3 +392,22 @@
 
 // console.log(catBuilder("Nyan", "rainbow", ["poptarts"]));
 // // prints: { name: 'Nyan', color: 'rainbow', toys: [ 'poptarts' ] }
+
+
+// Iterate Through Obj***********************************************************************************
+// function printObject(obj) {
+//     for (const [key, value] of Object.entries(obj)) {
+//         console.log(`${key} - ${value}`);
+//     }
+// }
+
+// let bootcamp = {
+//     name: "App Academy",
+//     color: "Red",
+//     population: 120
+//   };
+
+//   printObject(bootcamp); // prints
+//   // name - App Academy
+//   // color - Red
+//   // population - 120
