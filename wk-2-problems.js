@@ -320,7 +320,29 @@
 
 
 //Repeating Translate*******************************************************************************
-
+// let translatedWord = function(word) {
+//     let vowels = 'aeiouAEIOU';
+//     let lastLetter = word[word.length - 1];
+//     if (vowels.includes(lastLetter)) {
+//         return word + word;
+//     }
+//     for (let i = word.length - 1; i >= 0; i--) {
+//         if (vowels.includes(word[i])) {
+//             return word + word.slice(i);
+//         }
+//     }
+// }
+// let repeatingTranslate = function(sentence) {
+//     let words = sentence.split(' ');
+//     let newWords = words.map(function(word) {
+//         if (word.length < 3) {
+//             return word;
+//         } else {
+//             return translatedWord(word);
+//         }
+//     })
+//     return newWords.join(' ');
+// }
 
 // console.log(repeatingTranslate("we like to go running fast"));  // "we likelike to go runninging fastast"
 // console.log(repeatingTranslate("he cannot find the trash"));    // "he cannotot findind thethe trashash"
