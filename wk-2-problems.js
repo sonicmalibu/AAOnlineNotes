@@ -186,3 +186,23 @@
 
 // console.log(yeller(['hello', 'world'])); // [ 'HELLO!', 'WORLD!' ]
 // console.log(yeller(['kiwi', 'orange', 'mango'])); // [ 'KIWI!', 'ORANGE!', 'MANGO!' ]
+
+
+
+// Has Three Vowels*****************************************************************
+// function hasThreeVowels(str) {
+//     let vowels = ['a', 'e', 'i', 'o', 'u'];
+//     let string = vowels.reduce(function(accum, letter) {
+//         if (str.includes(letter)) {
+//             accum++
+//         }
+//         return accum;
+//     }, 0);
+//     return string >= 3;
+// }
+
+// console.log(hasThreeVowels('delicious'));       //  true
+// console.log(hasThreeVowels('bootcamp prep'));   //  true
+// console.log(hasThreeVowels('bootcamp'));        //  false
+// console.log(hasThreeVowels('dog'));             //  false
+// console.log(hasThreeVowels('go home'));         //  false
