@@ -226,7 +226,7 @@
 // console.log(longestWord('')); // ''
 
 
-//  Unique******************************************************************************************
+//  Unique For Each******************************************************************************************
 // function unique(arr) {
 //     let array = [];
 //     arr.forEach(function(word) {
@@ -243,7 +243,7 @@
 // console.log(unique(['a', 'b', 'c', 'b'])); // ['a', 'b', 'c']
 
 
-// Shortest Word************************************************************************************
+// Shortest Word For Each************************************************************************************
 // function shortestWord(sentence) {
 //         let newSent = sentence.split(' ');
 //         let shortestWord = '   ';
@@ -258,3 +258,41 @@
 // console.log(shortestWord('what a wonderful life'));     // 'a'
 // console.log(shortestWord('the quick brown fox jumps')); // 'fox'
 // console.log(shortestWord('do what you enjoy'));         // 'do'
+
+
+
+// Choose Prime For Each Helper Function************************************************************************************
+//  let isPrime = function(num) {
+//      if (num < 2) {
+//          return false;
+//          }
+//          for (let i = 2; i < num; i++) {
+//             if (num % i === 0) {
+//                 return false;
+//             }
+//      }
+//      return true;
+//     }
+
+// let choosePrimes = function(nums) {
+//     let arr = [];
+//     nums.forEach(function(num) {
+//         if (isPrime(num)) {
+//             arr.push(num);
+//         }
+//     })
+//     return arr;
+// }
+
+// console.log(choosePrimes([36, 48, 9, 13, 19])); // [ 13, 19 ]
+// console.log(choosePrimes([5, 6, 4, 11, 2017])); // [ 5, 11, 2017 ]
+
+
+// Hipsterfy******************************************************************************************
+function hipsterfy(sentence) {
+        
+}
+
+console.log(hipsterfy('When should everyone wake up?')); // 'Whn shold everyon wak p?'
+console.log(hipsterfy('get ready for our bootcamp')); // 'gt redy fr or bootcmp'
+console.log(hipsterfy('panthers are great animals')); // 'panthrs ar gret animls'
