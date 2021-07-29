@@ -206,3 +206,21 @@
 // console.log(hasThreeVowels('bootcamp'));        //  false
 // console.log(hasThreeVowels('dog'));             //  false
 // console.log(hasThreeVowels('go home'));         //  false
+
+
+
+// Longest Word***************************************************************************
+// function longestWord(sentence) {
+//     let sent = sentence.split(' ');
+//     let longWord = '';
+//     let newSent = sent.forEach(function (word) {
+//             if (word.length > longWord.length) {
+//                 longWord = word;
+//             }
+//     });
+//     return longWord;
+// }
+
+// console.log(longestWord('where did everyone go')); // 'everyone'
+// console.log(longestWord('prefer simplicity over complexity')); // 'simplicity'
+// console.log(longestWord('')); // ''
