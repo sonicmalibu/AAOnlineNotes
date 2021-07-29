@@ -209,7 +209,7 @@
 
 
 
-// Longest Word***************************************************************************
+// Longest Word For Each***************************************************************************
 // function longestWord(sentence) {
 //     let sent = sentence.split(' ');
 //     let longWord = '';
@@ -224,3 +224,20 @@
 // console.log(longestWord('where did everyone go')); // 'everyone'
 // console.log(longestWord('prefer simplicity over complexity')); // 'simplicity'
 // console.log(longestWord('')); // ''
+
+
+//  Unique******************************************************************************************
+// function unique(arr) {
+//     let array = [];
+//     arr.forEach(function(word) {
+//             if (!array.includes(word)) {
+//                 array.push(word);
+//             }
+//     })
+//     return array;
+
+// }
+
+// console.log(unique([1, 1, 2, 3, 3])); // [1, 2, 3]
+// console.log(unique([11, 7, 8, 10, 8, 7, 7])); // [11, 7, 8, 10]
+// console.log(unique(['a', 'b', 'c', 'b'])); // ['a', 'b', 'c']
