@@ -348,3 +348,29 @@
 // console.log(repeatingTranslate("he cannot find the trash"));    // "he cannotot findind thethe trashash"
 // console.log(repeatingTranslate("pasta is my favorite dish"));   // "pastapasta is my favoritefavorite dishish"
 // console.log(repeatingTranslate("her family flew to France"));   // "herer familyily flewew to FranceFrance"
+
+
+
+// Two D Product***********************************************************************************************************************
+// function twoDimensionalProduct(arr) {
+//     let product = 1;
+//     arr.forEach(function(subArr) {
+//         subArr.forEach(function(num) {
+//             product *= num;
+//         })
+//     })
+//     return product;
+// }
+
+// let arr1 = [
+//     [6, 4],
+//     [5],
+//     [3, 1]
+//   ];
+//   console.log(twoDimensionalProduct(arr1)); // 360
+
+//   let arr2 = [
+//     [11, 4],
+//     [2]
+//   ];
+//   console.log(twoDimensionalProduct(arr2)); // 88
