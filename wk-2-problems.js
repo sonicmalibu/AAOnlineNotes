@@ -168,13 +168,13 @@
 
 // Yeller Map*****************************************************************************************
 // function yeller(words) {
-    // let arr = [];
-    //     for (let i = 0; i < words.length; i++) {
-    //         let lol = words[i].toUpperCase() + '!';
-    //         arr.push(lol);
+// let arr = [];
+//     for (let i = 0; i < words.length; i++) {
+//         let lol = words[i].toUpperCase() + '!';
+//         arr.push(lol);
 
-    //     }
-    //     return arr;
+//     }
+//     return arr;
 
 //     let arr = [];
 //     words.map(function(word) {
@@ -290,9 +290,28 @@
 
 
 // Hipsterfy******************************************************************************************
-// function hipsterfy(sentence) {
+// let removeLastVowel = function(word) {
+//     let vowels = 'aeiouAEIOU';
 
+//     for (let i = word.length - 1; i >= 0; i--) {
+//         let letter = word[i];
+//         if (vowels.includes(letter)) {
+//             return word.slice(0, i) + word.slice(i + 1);
+//         }
+//     }
+//     return word;
 // }
+
+// let hipsterfy = function(sentence) {
+//     let arr = [];
+//     let sent = sentence.split(' ');
+//     sent.forEach(function(letter) {
+//         arr.push(removeLastVowel(letter));
+//     })
+//     return arr.join(' ');
+// }
+
+
 
 // console.log(hipsterfy('When should everyone wake up?')); // 'Whn shold everyon wak p?'
 // console.log(hipsterfy('get ready for our bootcamp')); // 'gt redy fr or bootcmp'
