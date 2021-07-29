@@ -241,3 +241,20 @@
 // console.log(unique([1, 1, 2, 3, 3])); // [1, 2, 3]
 // console.log(unique([11, 7, 8, 10, 8, 7, 7])); // [11, 7, 8, 10]
 // console.log(unique(['a', 'b', 'c', 'b'])); // ['a', 'b', 'c']
+
+
+// Shortest Word************************************************************************************
+// function shortestWord(sentence) {
+//         let newSent = sentence.split(' ');
+//         let shortestWord = '   ';
+//         newSent.forEach(function(word) {
+//             if (word.length <= shortestWord.length) {
+//                 shortestWord = word;
+//             }
+//         });
+//         return shortestWord;
+// }
+
+// console.log(shortestWord('what a wonderful life'));     // 'a'
+// console.log(shortestWord('the quick brown fox jumps')); // 'fox'
+// console.log(shortestWord('do what you enjoy'));         // 'do'
