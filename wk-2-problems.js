@@ -289,7 +289,7 @@
 // console.log(choosePrimes([5, 6, 4, 11, 2017])); // [ 5, 11, 2017 ]
 
 
-// Hipsterfy******************************************************************************************
+// Hipsterfy Remove Last Vowel Helper Function******************************************************************************************
 // let removeLastVowel = function(word) {
 //     let vowels = 'aeiouAEIOU';
 
@@ -316,3 +316,13 @@
 // console.log(hipsterfy('When should everyone wake up?')); // 'Whn shold everyon wak p?'
 // console.log(hipsterfy('get ready for our bootcamp')); // 'gt redy fr or bootcmp'
 // console.log(hipsterfy('panthers are great animals')); // 'panthrs ar gret animls'
+
+
+
+//Repeating Translate*******************************************************************************
+
+
+// console.log(repeatingTranslate("we like to go running fast"));  // "we likelike to go runninging fastast"
+// console.log(repeatingTranslate("he cannot find the trash"));    // "he cannotot findind thethe trashash"
+// console.log(repeatingTranslate("pasta is my favorite dish"));   // "pastapasta is my favoritefavorite dishish"
+// console.log(repeatingTranslate("her family flew to France"));   // "herer familyily flewew to FranceFrance"
