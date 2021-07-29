@@ -247,6 +247,7 @@
 // function shortestWord(sentence) {
 //         let newSent = sentence.split(' ');
 //         let shortestWord = '   ';
+//         //newSent[0];
 //         newSent.forEach(function(word) {
 //             if (word.length <= shortestWord.length) {
 //                 shortestWord = word;
