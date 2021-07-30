@@ -1278,3 +1278,17 @@
 
 
 // console.log(spiralOrder(matrix)); // [1,2,3,4,8,12,11,10,9,5,6,7]
+
+
+
+// Yeller For Each********************************************************************************************************************
+// function yeller(words) {
+//     let arr = [];
+//     words.forEach(function(word) {
+//         arr.push(word.toUpperCase());
+//     })
+//     return arr;
+// }
+
+// console.log(yeller(['hello', 'world'])); // [ 'HELLO!', 'WORLD!' ]
+// console.log(yeller(['kiwi', 'orange', 'mango'])); // [ 'KIWI!', 'ORANGE!', 'MANGO!' ]
