@@ -37,7 +37,7 @@ console.log(age);*/
 //console.log(getAvg(6, 4));
 //console.log(getAvg(10, 20));
 
- // *********************************************************************************
+// *********************************************************************************
 //Array push
 // Array pop
 // Array shift
@@ -193,29 +193,29 @@ for (let i = 0; i < nestedArr.length; i++) {
 
 //Pollios ****************************************************************
 
- //1. Understand the problem
+//1. Understand the problem
 
- //2. Make a plan
+//2. Make a plan
 
- //3. Carry out the plan
+//3. Carry out the plan
 
- //4. Look back and improve your solution
-
-
- // Array.slice() ************************************************************
- /*The slice() method returns a shallow copy of a portion of an
-  array into a new array object selected from start to end (end not
-     included) where start and end represent the index of items in
-     that array. The original array will not be modified.*/
+//4. Look back and improve your solution
 
 
-     // for loops
-                //start;   stop;    step;
-     // for (let i = 0; i < arg; i += step)
+// Array.slice() ************************************************************
+/*The slice() method returns a shallow copy of a portion of an
+ array into a new array object selected from start to end (end not
+    included) where start and end represent the index of items in
+    that array. The original array will not be modified.*/
 
-     // start - where we start the loop
-     //stop where we stop the loop
-     // step how many times to move 'i' forward
+
+// for loops
+//start;   stop;    step;
+// for (let i = 0; i < arg; i += step)
+
+// start - where we start the loop
+//stop where we stop the loop
+// step how many times to move 'i' forward
 
 
 // GOALS: For AA - Master 2D Arrays and Helper Functions by Sunday *************************************************
@@ -225,100 +225,100 @@ for (let i = 0; i < nestedArr.length; i++) {
 // forEach method ********************************************************************
 //   let names = ['Shawn', 'Montana', 'Wiott', 'Williams', 'Lord', 'Etc'];
 
-  // for (let i = 0; i < parks.length; i++) {
+// for (let i = 0; i < parks.length; i++) {
 //       let park = parks[i];
 //       console.log(park);
 //   }
 
-    // let str = '';
-    // names.forEach(function(name1, i) {
-    //     console.log(name1);
-    // str += name1;
-    // })
-    //console.log(str;)
+// let str = '';
+// names.forEach(function(name1, i) {
+//     console.log(name1);
+// str += name1;
+// })
+//console.log(str;)
 
-    /* Mylo notes - .forEach
-    function hello(names) {
-        for (let i = 0; i > names.length; i++) {
-            let name = names[i];
-            console.log("Hello ," + name);
-        }
+/* Mylo notes - .forEach
+function hello(names) {
+    for (let i = 0; i > names.length; i++) {
+        let name = names[i];
+        console.log("Hello ," + name);
     }
-    hello(["Shawn", "Williams"]);*/
+}
+hello(["Shawn", "Williams"]);*/
 
-    // function hello(names) {
-    //     names.forEach(function print(name, i, array) {
-    //         console.log("Hello, " + name);
-    //     });
-    // }
-    // hello(["Shawn", "Williams"])
-
-
-    // Callback
-    // let num = 1;
-
-    // function sum(num1, num2) {
-    //     return num1 + num2;
-    // }
-
-    // function printer(something) {
-    //     console.log(something(3, 8));
-    // }
+// function hello(names) {
+//     names.forEach(function print(name, i, array) {
+//         console.log("Hello, " + name);
+//     });
+// }
+// hello(["Shawn", "Williams"])
 
 
-    // printer(sum);
+// Callback
+// let num = 1;
+
+// function sum(num1, num2) {
+//     return num1 + num2;
+// }
+
+// function printer(something) {
+//     console.log(something(3, 8));
+// }
 
 
-    // Array#reduce method **********************************************************
-    // let nums = [3, 7, 5, 9];
-
-    // let sum = nums.reduce(function(accum, el) {
-    //     return accum + el;
-    // }, 100);
-    // console.log(sum);
-
-    // let nums = [3, 7, 5, 9];
-                                    //1st iter - 2nd iter
-    // let max = nums.reduce(function(accum, el) {
-    //     if (el > accum) {
-    //         return el;
-    //     } else {
-    //         return accum;
-    //     }
-    // });
-    // console.log(max);
-
-    // function list(names) {
-    //     let res = names.reduce(function(resString, name) {
-    //         return resString + ' ' + name;
-    //      }, "Names:" )
-    //      return res;
-    // }
-    // console.log(list(['Rick', 'Morty']))
-    // console.log(list(['Shawn']));
+// printer(sum);
 
 
-    // Map ****************************************************************
-    // function timesTwo(nums) {
-    //     let res = [];
-    //     for (i = 0; i < nums.length; i++) {
-    //         let num = nums[i];
-    //         res.push(num * 2);
-    //     }
-    //     return res;
-    // }
+// Array#reduce method **********************************************************
+// let nums = [3, 7, 5, 9];
 
-    // console.log(timesTwo([1, 2, 3, 4, 5]));
+// let sum = nums.reduce(function(accum, el) {
+//     return accum + el;
+// }, 100);
+// console.log(sum);
 
-    // function timesTwo(nums) {
-    //     let res = nums.map(function(num, i, array) {
-    //         return num * 2;
-    //     })
-    //     return res;
-    // }
-    // console.log(timesTwo([1, 2, 3, 4, 5]));
+// let nums = [3, 7, 5, 9];
+//1st iter - 2nd iter
+// let max = nums.reduce(function(accum, el) {
+//     if (el > accum) {
+//         return el;
+//     } else {
+//         return accum;
+//     }
+// });
+// console.log(max);
 
-    // .Filter ******************************************************************
+// function list(names) {
+//     let res = names.reduce(function(resString, name) {
+//         return resString + ' ' + name;
+//      }, "Names:" )
+//      return res;
+// }
+// console.log(list(['Rick', 'Morty']))
+// console.log(list(['Shawn']));
+
+
+// Map ****************************************************************
+// function timesTwo(nums) {
+//     let res = [];
+//     for (i = 0; i < nums.length; i++) {
+//         let num = nums[i];
+//         res.push(num * 2);
+//     }
+//     return res;
+// }
+
+// console.log(timesTwo([1, 2, 3, 4, 5]));
+
+// function timesTwo(nums) {
+//     let res = nums.map(function(num, i, array) {
+//         return num * 2;
+//     })
+//     return res;
+// }
+// console.log(timesTwo([1, 2, 3, 4, 5]));
+
+// .Filter ******************************************************************
 //     function evens(nums) {
 //         let res = [];
 //         for (i = 0; i > nums.length; i++) {
@@ -567,24 +567,24 @@ and how many odds are in my array */
 
 // Increments
 // var++ = post increment
-    // Example: var a = 0, b = 10;
-                    // var a = b++;
-    // Result: a = 10 and b = 11
+// Example: var a = 0, b = 10;
+// var a = b++;
+// Result: a = 10 and b = 11
 
 // ++var pre increment
-    // Example: var a = 0, b = 10;
-                    // var a = ++b;
-    // Result: a = 11 and b = 11
+// Example: var a = 0, b = 10;
+// var a = ++b;
+// Result: a = 11 and b = 11
 
 // var-- = post decrement
-    // Example: var a = 0, b = 10;
-                    // var a = b--;
-    // Result: a = 10 and b = 9
+// Example: var a = 0, b = 10;
+// var a = b--;
+// Result: a = 10 and b = 9
 
 // --var = predecrement
-    // Example: var a = 0, b = 10;
-                    // var a = --b;
-    // Result: a = 9 and b = 9
+// Example: var a = 0, b = 10;
+// var a = --b;
+// Result: a = 9 and b = 9
 
 
 //  Spiral Matrix******************************************************************
