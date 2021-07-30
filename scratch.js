@@ -59,13 +59,22 @@
 
 
 //     }
-//     console.log(sum);
+//     // console.log(sum);
 //         return sum;
 // }
 
 
 // function mostExpensiveGroceries(groceriesList) {
-//     // Your code here
+//     for (let i = 0; i < groceriesList.length; i++) {
+//         let ele1 = groceriesList[i];
+//         for (let j = 0; j < ele1; j++) {
+//             let ele2 = ele1[i];
+//                 console.log(costOfGroceries(ele2));
+
+
+//         }
+
+//     }
 // }
 
 
