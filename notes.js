@@ -640,4 +640,34 @@ and how many odds are in my array */
 
 
 // Sprial Matrix Take 2
+// function spiralOrder(matrix) {
+//     if (!matrix.length) return [];
+//     let arr = [];
+//     let spiral = [[0, 1], [1, 0], [0, -1], [-1, 0]];
+//     let ele = [matrix[0].length, matrix.length - 1];
+//     let spi = 0, row = 0, column = -1;
+//     while (ele[spi % 2] > 0) {
+//         for (let i = 0; i < ele[spi % 2]; i++) {
+//             row += spiral[spi][0];
+//             column += spiral[spi][1];
+//             arr.push(matrix[row][column]);
+//         }
+//         ele[spi % 2]--;
+//         spi = (spi + 1) % 4;
+//     }
+//     return arr;
+// }
 
+
+// matrix = [[ 1, 2, 3],
+//           [ 4, 5, 6],
+//           [ 7, 8, 9]]
+
+// console.log(spiralOrder(matrix)); // [1,2,3,6,9,8,7,4,5]
+
+// matrix = [[1, 2, 3, 4],
+//           [5, 6, 7, 8],
+//           [9,10,11,12]]
+
+
+// console.log(spiralOrder(matrix)); // [1,2,3,4,8,12,11,10,9,5,6,7]
