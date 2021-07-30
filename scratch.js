@@ -65,16 +65,18 @@
 
 
 // function mostExpensiveGroceries(groceriesList) {
+//     let highestCost = costOfGroceries(groceriesList[0]);
+//     let highestIndex = 0;
 //     for (let i = 0; i < groceriesList.length; i++) {
-//         let ele1 = groceriesList[i];
-//         for (let j = 0; j < ele1; j++) {
-//             let ele2 = ele1[i];
-//                 console.log(costOfGroceries(ele2));
-
-
+//         let currentList = groceriesList[i];
+//         let currentCost = costOfGroceries(currentList);
+//         if (currentCost > highestCost) {
+//             highestCost = currentCost;
+//             highestIndex = i;
 //         }
 
 //     }
+//     return highestIndex;
 // }
 
 
