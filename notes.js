@@ -589,39 +589,39 @@ and how many odds are in my array */
 
 //  Spiral Matrix******************************************************************
 // function spiralOrder(matrix) {
-//     const result = [];
-//     const rowCount = matrix.length;
-//     const columnCount = matrix[0].length;
-//     let startRow = 0;
-//     let endRow = rowCount - 1;
-//     let startColumn = 0;
-//     let endColumn = columnCount - 1;
+//     const arr = [];
+//     const rowCo = matrix.length;
+//     const coCo = matrix[0].length;
+//     let startR = 0;
+//     let endR = rowCo - 1;
+//     let startCol = 0;
+//     let endCol = coCo - 1;
 
-//     while (endRow >= startRow && endColumn >= startColumn) {
-//       for (let i = startColumn; i <= endColumn; i++) {
-//         result.push(matrix[startRow][i]);
+//     while (endR >= startR && endCol >= startCol) {
+//       for (let i = startCol; i <= endCol; i++) {
+//         arr.push(matrix[startR][i]);
 //       }
-//       startRow++;
+//       startR++;
 
-//       for (let i = startRow; i <= endRow; i++) {
-//         result.push(matrix[i][endColumn]);
+//       for (let i = startR; i <= endR; i++) {
+//         arr.push(matrix[i][endCol]);
 //       }
-//       endColumn--;
-//       if (endRow >= startRow) {
-//         for (let i = endColumn; i >= startColumn; i--) {
-//           result.push(matrix[endRow][i]);
+//       endCol--;
+//       if (endR >= startR) {
+//         for (let i = endCol; i >= startCol; i--) {
+//           arr.push(matrix[endR][i]);
 //         }
 //       }
-//       endRow--;
-//       if (endColumn >= startColumn) {
-//         for (let i = endRow; i >= startRow; i--) {
-//           result.push(matrix[i][startColumn]);
+//       endR--;
+//       if (endCol >= startCol) {
+//         for (let i = endR; i >= startR; i--) {
+//           arr.push(matrix[i][startCol]);
 //         }
 //       }
-//       startColumn++;
+//       startCol++;
 //     }
 
-//     return result;
+//     return arr;
 //     };
 
 
@@ -637,4 +637,3 @@ and how many odds are in my array */
 
 
 // console.log(spiralOrder(matrix)); // [1,2,3,4,8,12,11,10,9,5,6,7]
-
