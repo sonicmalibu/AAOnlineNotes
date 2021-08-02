@@ -434,3 +434,18 @@
 // let foods = {apple: "tart", lemon: "sour", mango: "sweet"}
 // console.log(valuesInObject(animals)); // => ["Wolfie", "Jet", "Bilbo"]
 // console.log(valuesInObject(foods)); // => ["tart", "sour", "sweet"]
+
+
+
+// Set Key In Objects***************************************************************************************
+// function setKeyInObject(obj, str, value) {
+//     let key = str;
+//     obj[key] = value;
+//     return obj;
+// }
+
+// let obj = {}
+// console.log(setKeyInObject(obj, "apple", "yum")); // => {apple: "yum"}
+
+// let obj1 = {str: "hello"}
+// console.log(setKeyInObject(obj1, "num", 3)); // => {str: "hello", num: 3}
