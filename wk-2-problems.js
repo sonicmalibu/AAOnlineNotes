@@ -500,3 +500,17 @@
 //   console.log(keyInObjectArray(objArray, 'age')); // => true
 //   console.log(keyInObjectArray(objArray, 'food')); // => false
 //   console.log(keyInObjectArray(objArray, 'animal')); // => false
+
+
+// Break Down Objects********************************************************************************************
+// function breakDownObj(obj) {
+//     let key = Object.keys(obj);
+//     let value = Object.values(obj);
+//     return [...key, ... value];
+// }
+
+// let object1 = {name: 'Rupert', age: 5, speak: 'Meow'};
+// console.log(breakDownObj(object1)); // => [ 'name', 'age', 'speak', 'Rupert', 5, 'Meow' ]
+
+// let object2 = {location: 'NY', borough: 'Brooklyn'};
+// console.log(breakDownObj(object2)); // => [ 'location', 'borough', 'NY', 'Brooklyn' ]
