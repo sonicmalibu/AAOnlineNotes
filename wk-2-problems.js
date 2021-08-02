@@ -475,3 +475,28 @@
 // let obj1 = {bootcamp: 'App Academy', course: 'Bootcamp Prep'}
 // console.log(doesKeyExist(obj1, 'course')); // => true
 // console.log(doesKeyExist(obj1, 'name')); // => false
+
+
+
+// Key In Object Array*******************************************************************************************
+// function keyInObjectArray(objArray, keyString) {
+//     let res = false;
+//     objArray.forEach(function(key) {
+//         if (key[keyString]) {
+//             res = true;
+//         }
+//     })
+//     return res;
+// }
+
+
+// let objArray = [
+//     { name: "Rupert" },
+//     { age: 42 },
+//     { planet: "Earth", system: "Milky Way" }
+//   ];
+
+//   console.log(keyInObjectArray(objArray, 'planet')); // => true
+//   console.log(keyInObjectArray(objArray, 'age')); // => true
+//   console.log(keyInObjectArray(objArray, 'food')); // => false
+//   console.log(keyInObjectArray(objArray, 'animal')); // => false
