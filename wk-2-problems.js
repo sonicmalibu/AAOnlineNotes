@@ -421,5 +421,16 @@
 
 // let animals = {dog: 'Wolfie', cat: 'Jet', bison: 'Bilbo'}
 // let foods = {apple: 'tart', lemon: 'sour', mango: 'sweet'}
-// keysInObject(animals); // => ["dog", "cat", "bison"]
-// keysInObject(foods); // => ["apple", "lemon", "mango"]
+// console.log(keysInObject(animals)); // => ["dog", "cat", "bison"]
+// console.log(keysInObject(foods)); // => ["apple", "lemon", "mango"]
+
+
+// Values In Objects******************************************************************************************
+// function valuesInObject(obj) {
+//     return Object.values(obj);
+// }
+
+// let animals = {dog: "Wolfie", cat: "Jet", bison: "Bilbo"}
+// let foods = {apple: "tart", lemon: "sour", mango: "sweet"}
+// console.log(valuesInObject(animals)); // => ["Wolfie", "Jet", "Bilbo"]
+// console.log(valuesInObject(foods)); // => ["tart", "sour", "sweet"]
