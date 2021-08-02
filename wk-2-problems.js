@@ -449,3 +449,16 @@
 
 // let obj1 = {str: "hello"}
 // console.log(setKeyInObject(obj1, "num", 3)); // => {str: "hello", num: 3}
+
+
+
+// Get Full Name*********************************************************************************************
+// function getFullName(person) {
+//     let name = person.firstName.concat(' ').concat(person.lastName);
+//     return name;
+// }
+
+// let p1 = {firstName: 'John', lastName: 'Doe'};
+// console.log(getFullName(p1)); // => 'John Doe'
+// let p2 = {firstName: 'Charlie', lastName: 'Brown', age: 9};
+// console.log(getFullName(p2)); // => 'Charlie Brown'
