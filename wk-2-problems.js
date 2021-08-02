@@ -588,7 +588,7 @@
 // console.log(spreadItOut(["apple", "banana"], [1,2,3])); // => ["apple", "banana", 1, 2, 3];
 
 
-// Array Counter***************************************************************************************************************
+// Array Converter***************************************************************************************************************
 // function arrayConverter(array) {
 //     let obj = {};
 //     array.forEach(function(key) {
@@ -604,3 +604,22 @@
 // console.log(arrayConverter(["apple", "apple"])); // => {apple: 2}
 // console.log(arrayConverter(["mango", "pineapple"])); // => {mango: 1, pineapple: 1}
 // console.log(arrayConverter(["apple", "banana", "potato", "banana"])); // => {apple: 1, banana: 2, potato: 1}
+
+
+// String Converter****************************************************************************************************************
+// function stringConverter(string) {
+//     let obj = {};
+//     for (let i = 0; i < string.length; i++) {
+//         let char = string[i];
+//         if (obj[char] === undefined) {
+//             obj[char] = 1;
+//         } else {
+//             obj[char] += 1;
+//         }
+//     }
+//     return obj;
+// }
+
+// console.log(stringConverter("apple")); // => {a: 1, p: 2, l: 1, e: 1}
+// console.log(stringConverter("banana")); // => {b: 1, a: 3, n: 2}
+// console.log(stringConverter("raccoon")); // => {r: 1, a: 1, c: 2, o: 2, n: 1}
