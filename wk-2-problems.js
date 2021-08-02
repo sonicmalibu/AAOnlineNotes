@@ -572,5 +572,35 @@
 // }
 
 // console.log(restSum(3,5,6)); // => 14
-// console.log(restSum(1, 2, 3, 4, 5, 6, 7, 8, 9)); // => 14
+// console.log(restSum(1, 2, 3, 4, 5, 6, 7, 8, 9)); // => 45
 // console.log(restSum(0)); // => 0
+
+
+// Spread It Out**************************************************************************************************************
+// function spreadItOut(arr1, arr2) {
+//     let newArr = [...arr1, ...arr2];
+//     return newArr;
+
+// }
+
+// console.log(spreadItOut([3,5,6], [1,2,3])); // => [3,5,6,1,2,3];
+// console.log(spreadItOut([], [1,2,3])); // => [1,2,3];
+// console.log(spreadItOut(["apple", "banana"], [1,2,3])); // => ["apple", "banana", 1, 2, 3];
+
+
+// Array Counter***************************************************************************************************************
+// function arrayConverter(array) {
+//     let obj = {};
+//     array.forEach(function(key) {
+//         if (obj[key] === undefined) {
+//             obj[key] = 1;
+//         } else {
+//             obj[key] += 1;
+//         }
+//     })
+//     return obj;
+// }
+
+// console.log(arrayConverter(["apple", "apple"])); // => {apple: 2}
+// console.log(arrayConverter(["mango", "pineapple"])); // => {mango: 1, pineapple: 1}
+// console.log(arrayConverter(["apple", "banana", "potato", "banana"])); // => {apple: 1, banana: 2, potato: 1}
