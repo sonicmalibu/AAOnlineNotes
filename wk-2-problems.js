@@ -462,3 +462,16 @@
 // console.log(getFullName(p1)); // => 'John Doe'
 // let p2 = {firstName: 'Charlie', lastName: 'Brown', age: 9};
 // console.log(getFullName(p2)); // => 'Charlie Brown'
+
+
+// Does Key Exist**********************************************************************************************
+// function doesKeyExist(obj, key) {
+//     if (obj[key]) {
+//         return true;
+//     }
+//     return false;
+// }
+
+// let obj1 = {bootcamp: 'App Academy', course: 'Bootcamp Prep'}
+// console.log(doesKeyExist(obj1, 'course')); // => true
+// console.log(doesKeyExist(obj1, 'name')); // => false
