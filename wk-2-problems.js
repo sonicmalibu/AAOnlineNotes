@@ -514,3 +514,16 @@
 
 // let object2 = {location: 'NY', borough: 'Brooklyn'};
 // console.log(breakDownObj(object2)); // => [ 'location', 'borough', 'NY', 'Brooklyn' ]
+
+
+
+// Value Pair***********************************************************************************************
+// function valuePair(obj1, obj2, key) {
+//     let arr = [obj1[key], obj2[key]];
+//     return arr;
+// }
+
+// let object1 = {name: 'One', location: 'NY', age: 3};
+// let object2 = {name: 'Two', location: 'SF'};
+// console.log(valuePair(object1, object2, 'location')); // => [ 'NY', 'SF' ]
+// console.log(valuePair(object1, object2, 'name')); // => [ 'One', 'Two' ]
