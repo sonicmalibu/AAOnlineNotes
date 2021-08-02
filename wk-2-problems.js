@@ -411,3 +411,15 @@
 //   // name - App Academy
 //   // color - Red
 //   // population - 120
+
+
+
+// Keys In Objects*********************************************************************************************
+// function keysInObject(obj) {
+//     return Object.keys(obj);
+// }
+
+// let animals = {dog: 'Wolfie', cat: 'Jet', bison: 'Bilbo'}
+// let foods = {apple: 'tart', lemon: 'sour', mango: 'sweet'}
+// keysInObject(animals); // => ["dog", "cat", "bison"]
+// keysInObject(foods); // => ["apple", "lemon", "mango"]
