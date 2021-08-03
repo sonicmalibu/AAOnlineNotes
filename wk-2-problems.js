@@ -928,3 +928,74 @@
 // console.log(myEvery([4, 7, 6, 10], isEven));            // false
 // console.log(myEvery(['book', 'door'], hasO));           // true
 // console.log(myEvery(['book', 'door', 'pen'], hasO));    // false
+
+
+
+// And Select****************************************************************************************************************************
+// function andSelect(array, cb1, cb2) {
+//     let arr = [];
+//     array.forEach(function(ele) {
+//         if (cb1(ele) && cb2(ele)) {
+//             arr.push(ele);
+//         }
+//     })
+//     return arr;
+// }
+
+// let isEven = function (n) {
+//     return n % 2 === 0;
+// };
+
+// let isPositive = function (n) {
+//     return n > 0;
+// };
+
+// console.log(andSelect([-3, 8, 7, 11, 6, 12, -4], isEven, isPositive));
+// // [ 8, 6, 12 ]
+
+// let isUpperCase = function (s) {
+//     return s === s.toUpperCase();
+// };
+
+// let startsWithA = function (s) {
+//     return s[0].toUpperCase() === 'A';
+// }
+// console.log(andSelect(['ants', 'APPLES', 'ART', 'BACON', 'arm'], isUpperCase,  startsWithA));
+// [ 'APPLES', 'ART' ]
+
+
+
+// Exactly******************************************************************************************************************
+// function exactly(array, num, cb) {
+//     let counter = 0;
+//     array.forEach(function(ele) {
+//         if (cb(ele)) {
+//             counter++;
+//         }
+//     })
+//     return counter === num;
+// }
+
+// let result1 = exactly([18, 5, 32, 7, 100], 3, function (n) {
+//     return n % 2 === 0;
+// });
+// console.log(result1); // true
+
+// let result2 = exactly([18, 5, 32, 7, 100], 2, function (n) {
+//     return n % 2 === 0;
+// });
+// console.log(result2); // false
+
+// let result3 = exactly(['follow', 'the', 'yellow', 'brick', 'road'], 1, function (str) {
+//     return str.includes('x');
+// });
+// console.log(result3); // false
+
+// let result4 = exactly(['follow', 'the', 'yellow', 'brick', 'road'], 0, function (str) {
+//     return str.includes('x');
+// });
+// console.log(result4); // true
+
+
+
+// Min-Value Callback***************************************************************************************************************
