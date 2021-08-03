@@ -902,3 +902,29 @@
 // console.log(chainMap(25, add5, half, square));  // 225
 // console.log(chainMap(4, square, half));         // 8
 // console.log(chainMap(4, half, square));         // 4
+
+
+
+// My Every**************************************************************************************************************************
+// function myEvery(array, cb) {
+//     for (let i = 0; i < array.length; i++) {
+//         let ele = array[i];
+//         if (cb(ele) === false) {
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+
+// let isEven = function (num) {
+//     return num % 2 === 0;
+// };
+
+// let hasO = function(string) {
+//     return string.includes('o');
+// };
+
+// console.log(myEvery([4, 8, 6, 10], isEven));            // true
+// console.log(myEvery([4, 7, 6, 10], isEven));            // false
+// console.log(myEvery(['book', 'door'], hasO));           // true
+// console.log(myEvery(['book', 'door', 'pen'], hasO));    // false
