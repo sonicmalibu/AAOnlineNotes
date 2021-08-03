@@ -22,4 +22,29 @@
 
 
 
-//
+// Sum Array******************************************************************************************************
+// function sumArray(array) {
+//     let arrL = array.length;
+//     if (arrL === 0) {
+//         return 0;
+//     }
+//     return array[0] + sumArray(array.slice(1))
+// }
+
+// console.log(sumArray([1, 2, 3])); //  6
+// console.log(sumArray([0, 1, -3])); //  -2
+// console.log(sumArray([1, 2, 3, 4, 5])); // 15
+
+
+
+// Ice Cream Shop************************************************************************************************
+function iceCreamShop(flavors, favorite) {
+    
+}
+
+
+console.log(iceCreamShop(['vanilla', 'strawberry'], 'blue moon')); // false
+console.log(iceCreamShop(['pistachio', 'green tea', 'chocolate', 'mint chip'], 'green tea')); // true
+console.log(iceCreamShop(['cookies n cream', 'blue moon', 'superman', 'honey lavender', 'sea salt caramel'], 'pistachio')); // false
+console.log(iceCreamShop(['moose tracks'], 'moose tracks')); // true
+console.log(iceCreamShop([], 'honey lavender')); // false
