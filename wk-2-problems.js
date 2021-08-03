@@ -999,3 +999,43 @@
 
 
 // Min-Value Callback***************************************************************************************************************
+// function minValueCallback(arr, cb) {
+//     let min = null;
+//     arr.forEach(function(num) {
+//         if (num <= min || min === null) {
+//             min = num;
+//         }
+//     })
+//     if (cb === undefined) {
+//         return min;
+//     } else {
+//         return cb(min);
+//     }
+
+// }
+
+// console.log(minValueCallback([64, 25, 49, 9, 100]));             // 9
+// console.log(minValueCallback([64, 25, 49, 9, 100], Math.sqrt));  // 3
+
+
+
+// Map Mutator********************************************************************************************************************
+// function mapMutator(array, cb) {
+//     let func =array.forEach(function(ele, i, array) {
+//         ele = cb(ele, i, array)
+//     })
+//     return func;
+// }
+
+
+// let arr1 = [4, 2, 6, 5];
+// mapMutator(arr1, function (el) {
+//     return el * 2;
+// });
+// console.log(arr1);  // [ 8, 4, 12, 10 ]
+
+// let arr2 = [8, 9, 10];
+// mapMutator(arr2, function (el, i) {
+//     return el * i;
+// });
+// console.log(arr2); // [ 0, 9, 20 ]
