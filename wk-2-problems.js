@@ -723,3 +723,26 @@
 //     return s + "!";
 //   });
 //   console.log(result3); // hi!!!!!
+
+
+
+// My Filter*************************************************************************************************************************
+// function myFilter(array, cb) {
+//     let arr = [];
+//     array.forEach(function(ele) {
+//         if (cb(ele)) {
+//             arr.push(ele);
+//         }
+//     })
+//     return arr;
+// }
+
+// let result1 = myFilter([5, 7, 4, 3, 8], function (n) {
+//     return n % 2 === 0;
+// });
+// console.log(result1);       // [ 4, 8 ]
+
+// let result2 = myFilter(['choose', 'big', 'words', 'only'], function (s) {
+//     return s.length > 3;
+// });
+// console.log(result2);      // ['choose', 'words', 'only']
