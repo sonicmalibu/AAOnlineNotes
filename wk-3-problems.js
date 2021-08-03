@@ -38,13 +38,18 @@
 
 
 // Ice Cream Shop************************************************************************************************
-function iceCreamShop(flavors, favorite) {
-    
-}
+// function iceCreamShop(flavors, favorite) {
+//     if (!flavors.length) return false;
+//     if (flavors.pop() === favorite) return true;
+//     return iceCreamShop(flavors, favorite);
+// }
 
 
-console.log(iceCreamShop(['vanilla', 'strawberry'], 'blue moon')); // false
-console.log(iceCreamShop(['pistachio', 'green tea', 'chocolate', 'mint chip'], 'green tea')); // true
-console.log(iceCreamShop(['cookies n cream', 'blue moon', 'superman', 'honey lavender', 'sea salt caramel'], 'pistachio')); // false
-console.log(iceCreamShop(['moose tracks'], 'moose tracks')); // true
-console.log(iceCreamShop([], 'honey lavender')); // false
+// console.log(iceCreamShop(['vanilla', 'strawberry'], 'blue moon')); // false
+// console.log(iceCreamShop(['pistachio', 'green tea', 'chocolate', 'mint chip'], 'green tea')); // true
+// console.log(iceCreamShop(['cookies n cream', 'blue moon', 'superman', 'honey lavender', 'sea salt caramel'], 'pistachio')); // false
+// console.log(iceCreamShop(['moose tracks'], 'moose tracks')); // true
+// console.log(iceCreamShop([], 'honey lavender')); // false
+
+
+
