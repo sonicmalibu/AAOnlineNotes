@@ -746,3 +746,66 @@
 //     return s.length > 3;
 // });
 // console.log(result2);      // ['choose', 'words', 'only']
+
+
+
+// Selective Map*********************************************************************************************************************
+// function selectiveMap(array, cb1, cb2) {
+//     let arr = [];
+//     array.forEach(function(ele) {
+//         if (cb1(ele)) {
+//             arr.push(cb2(ele));
+//         } else {
+//             arr.push(ele);
+//         }
+//     })
+//     return arr;
+// }
+
+// function isEven(n) {
+//     return n % 2 === 0;
+// }
+
+// function isPositive(n) {
+//     return n > 0;
+// }
+
+// function square(n) {
+//     return n * n;
+// }
+
+// function flipSign(n) {
+//     return n * -1;
+// }
+
+// console.log(selectiveMap([8, 5, 10, 4], isEven, square));
+// // [ 64, 5, 100, 16 ]
+
+// console.log(selectiveMap([-10, 4, 7, 6, -2, -9], isEven, flipSign));
+// // [ 10, -4, 7, -6, 2, -9 ]
+
+// console.log(selectiveMap([-10, 4, 7, 6, -2, -9], isPositive, square));
+// // [-10, 16, 49, 36, -2, -9]
+
+
+
+// Reject**************************************************************************************************************************
+// function reject(array, cb) {
+//     let arr = [];
+//     array.forEach(function(ele) {
+//         if (cb(ele) === false) {
+//             arr.push(ele);
+//         }
+//     })
+//     return arr;
+// }
+
+// let isEven = function(n) {
+//     return n % 2 === 0;
+// };
+// console.log(reject([7, 8, 5, 6, 12, 11], isEven)); // [ 7, 5, 11 ]
+
+// let hasA = function(s) {
+//     return s.toLowerCase().includes('a');
+// };
+// console.log(reject(['breadth', 'GRAPH', 'depth', 'height'], hasA)); // [ 'depth', 'height' ]
