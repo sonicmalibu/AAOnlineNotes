@@ -53,3 +53,17 @@
 
 
 
+// Range*********************************************************************************************************
+// function range(start, end) {
+//     let emptyArr = [];
+//     let star = [start];
+
+//     if (end <= start) {
+//         return emptyArr;
+//     }
+//     return star.concat(range(++start , end));
+// }
+
+// console.log(range(1, 5)); // [1, 2, 3, 4]
+// console.log(range(3, 4)); // [3]
+// console.log(range(7, 6)); // []
