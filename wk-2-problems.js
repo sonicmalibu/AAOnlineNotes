@@ -1065,3 +1065,42 @@
 
 // let result2 = sentenceMapper("this is pretty cool right", removeVowels);
 // console.log(result2); // 'ths s prtty cl rght'
+
+
+
+// Suffix Cipher************************************************************************************************************************
+// function suffixCipher(sentence, cipher) {
+//     let split = sentence.split(' ');
+//     let newWords = split.map(function(word) {
+//         for (let suffix in cipher) {
+//             if (word.endsWith(suffix)) {
+//                 let cb = cipher[suffix];
+//                 return cb(word);
+//             }
+//         }
+//         return word;
+//     })
+//     return newWords.join(' ');
+// }
+
+// let cipher1 = {
+//     ly: function(word) {
+//         return word.slice(0, -1) + 'ee';
+//     },
+//     ize: function(word) {
+//         return word + 'r';
+//     }
+// };
+// console.log(suffixCipher('quietly and gently visualize', cipher1));
+// // quietlee and gentlee visualizer
+
+// let cipher2 = {
+//     tal: function(word) {
+//         return word.toUpperCase();
+//     },
+//     s: function(word) {
+//         return word + 'th';
+//     }
+// };
+// console.log(suffixCipher('incremental progress is very instrumental', cipher2));
+// // INCREMENTAL progressth isth very INSTRUMENTAL
