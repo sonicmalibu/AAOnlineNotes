@@ -1210,3 +1210,39 @@
 // console.log(greaterCallbackValue(5, doubler, squarer));     // 25
 // console.log(greaterCallbackValue(1, doubler, squarer));     // 2
 // console.log(greaterCallbackValue(9, Math.sqrt, doubler));   // 18
+
+
+
+// None*************************************************************************************************************************
+// function none(array, cb) {
+//     let res = true;
+//     array.forEach(function(ele) {
+//         if (cb(ele) === true) {
+//                 res = false;
+//         }
+//     })
+//     return res;
+// }
+
+// let result1 = none(['ruby', 'topaz', 'opal'], function(w) {
+//     return w.includes('e');
+// });
+// console.log(result1);   // true
+
+// let result2 = none(['ruby', 'topaz', 'sapphire', 'opal'], function(w) {
+//     return w.includes('e');
+// });
+// console.log(result2);   // false
+
+// let result3 = none([4, 5, 7, 1], function(n) {
+//     return n < 0;
+// });
+// console.log(result3);   // true
+
+// let result4 = none([4, -5, 7, -1], function(n) {
+//     return n < 0;
+// });
+// console.log(result4);   // false
+
+
+// At Most***************************************************************************************************************************
