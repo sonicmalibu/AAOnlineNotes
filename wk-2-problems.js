@@ -1021,11 +1021,10 @@
 
 // Map Mutator********************************************************************************************************************
 // function mapMutator(array, cb) {
-//     let func =array.forEach(function(ele, i, array) {
-//         ele = cb(ele, i, array)
-//     })
-//     return func;
-// }
+//     for (let i = 0; i < array.length; i++) {
+//       array[i] = cb(array[i], i, array);
+//     }
+//   }
 
 
 // let arr1 = [4, 2, 6, 5];
