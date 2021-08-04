@@ -1043,8 +1043,9 @@
 
 // Sentence Mapper******************************************************************************************************************
 // function sentenceMapper(sentence, cb) {
-//     let wrds = sentence.split(' ');
-//     return wrds.map(cb).join(' ');
+//     // let wrds = sentence.split(' ');
+//     // return wrds.map(cb).join(' ');
+//     return sentence.split(' ').map(cb).join(' ');
 // }
 
 // let result1 = sentenceMapper("what is the answer?", function(word) {
