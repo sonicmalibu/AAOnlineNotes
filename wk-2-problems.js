@@ -1038,3 +1038,30 @@
 //     return el * i;
 // });
 // console.log(arr2); // [ 0, 9, 20 ]
+
+
+
+// Sentence Mapper******************************************************************************************************************
+// function sentenceMapper(sentence, cb) {
+//     let wrds = sentence.split(' ');
+//     return wrds.map(cb).join(' ');
+// }
+
+// let result1 = sentenceMapper("what is the answer?", function(word) {
+//     return word.toUpperCase() + "!";
+// });
+// console.log(result1); // 'WHAT! IS! THE! ANSWER?!'
+
+// let removeVowels = function(word) {
+//     let newWord = "";
+//     for (let i = 0; i < word.length; i++) {
+//         let char = word[i];
+//         if (!"aeiou".includes(char)) {
+//             newWord += char;
+//         }
+//     }
+//     return newWord;
+// };
+
+// let result2 = sentenceMapper("this is pretty cool right", removeVowels);
+// console.log(result2); // 'ths s prtty cl rght'
