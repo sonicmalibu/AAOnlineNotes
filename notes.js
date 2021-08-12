@@ -686,3 +686,14 @@ and how many odds are in my array */
 // }
 
 // console.log(tellStory('hippo', 'magnificent', 'waterpark'))
+
+
+
+// Recursions*****************************************************************************
+// function countdown(num) {
+//     if (num === 0) {
+//         return;
+//     }
+//     console.log(num);
+//     countdown(num - 1);
+// }
