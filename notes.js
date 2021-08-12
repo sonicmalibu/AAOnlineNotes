@@ -722,3 +722,10 @@ and how many odds are in my array */
 //     var dog = 'dog';
 // }
 // hoistVar(); // => undefined
+
+
+// hello(); // => 'hello!'
+
+// function hello() {
+//     console.log('hello!');
+// }
