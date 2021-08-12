@@ -713,3 +713,12 @@ and how many odds are in my array */
 // }
 
 // echo('howdy');
+
+
+
+// Hoisting************************************************************************************
+// function hoistVar() {
+//     console.log(dog);
+//     var dog = 'dog';
+// }
+// hoistVar(); // => undefined
