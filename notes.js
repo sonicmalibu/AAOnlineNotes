@@ -699,17 +699,17 @@ and how many odds are in my array */
 // }
 
 
-function echo(word) {
-    if (word.length > 1) {
-        console.log(word.toUpperCase());
-        let response = echo(word.slice(1));
+// function echo(word) {
+//     if (word.length > 1) {
+//         console.log(word.toUpperCase());
+//         let response = echo(word.slice(1));
 
-        console.log(response);
-        return word;
-    } else {
-        console.log(word.toUpperCase());
-        return word;
-    }
-}
+//         console.log(response);
+//         return word;
+//     } else {
+//         console.log(word.toUpperCase());
+//         return word;
+//     }
+// }
 
-echo('howdy');
+// echo('howdy');
