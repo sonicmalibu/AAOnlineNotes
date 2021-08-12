@@ -671,3 +671,18 @@ and how many odds are in my array */
 
 
 // console.log(spiralOrder(matrix)); // [1,2,3,4,8,12,11,10,9,5,6,7]
+
+
+
+// Template Literals****************************************************************
+// function sayHello(name) {
+//     return `hello ${name}!`
+// }
+
+// console.log(sayHello('Shawn'));
+
+// function tellStory(animal, adj, place) {
+//     return `My ${adj} ${animal} went to the ${place} ${3+3} times.`;
+// }
+
+// console.log(tellStory('hippo', 'magnificent', 'waterpark'))
