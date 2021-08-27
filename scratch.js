@@ -9,13 +9,15 @@
 //             return word.toUpperCase();
 //         } else if (operation === "double") {
 //             return word + word;
-//         }
+//         } else if (operation === "unknown")
+//             return word;
 //         }
 
+// return word.split('').reverse().join('');
 // }
 
-// //TESTS
-// //DO NOT MODIFY ANYTHING BELOW THIS LINE
+// // TESTS
+// // DO NOT MODIFY ANYTHING BELOW THIS LINE
 
 // let score = 0;
 
