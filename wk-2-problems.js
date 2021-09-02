@@ -1456,3 +1456,37 @@
 
 // console.log(mirrorArray([1,2,3])); // => [ 1, 2, 3, 3, 2, 1 ]
 // console.log(mirrorArray(['a', 'b', 'c', 'd'])); // => [ 'a', 'b', 'c', 'd', 'd', 'c', 'b', 'a' ]
+
+
+
+// Closure Sandwiches*****************************************************************************
+// function sandwichMaker() {
+//     let order = "One sandwich with tomato";
+
+//     return function (food) {
+//       order = order + " and " + food;
+//       return order;
+//     };
+//   }
+
+// let sandwich = sandwichMaker(); // => returns a function
+// console.log(sandwich("spinach")) // => "One sandwich with tomato and spinach"
+// console.log(sandwich("jelly")) // => "One sandwich with tomato and spinach and jelly"
+// console.log(sandwich("bread")) // => "One sandwich with tomato and spinach and jelly and bread"
+
+// // Another Sandwich:
+// let sandwich2 = sandwichMaker(); // => returns a function
+// console.log(sandwich2("pb")) // => "One sandwich with tomato and pb"
+
+
+
+// Set Time Out******************************************************************************************
+// function funcTimer(time, func) {
+//     setTimeout(func, time);
+//   }
+
+// function partyFunc () {
+//     console.log("Party time!")
+//   }
+
+//   funcTimer(5000, partyFunc); // in 5 seconds prints: "Party time!"
