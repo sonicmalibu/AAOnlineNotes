@@ -1568,3 +1568,76 @@
 //   console.log(threeDays()); // returns a function
 //   console.log(threeDays()); // returns a function
 //   console.log(threeDays()); // prints "Happy New Year!"
+
+
+
+// Lazy Adder*******************************************************************************************
+// function lazyAdder(firstNum) {
+//     return function (secondNum) {
+//       return function (thirdNum) {
+//         return firstNum + secondNum + thirdNum;
+//       };
+//     };
+//   }
+
+
+// //   Example 1:
+// let firstAdd = lazyAdder(1);
+// let secondAdd = firstAdd(2);
+// let sum = secondAdd(3);
+// console.log(sum); // prints 6
+
+// // Example 2:
+// let func1 = lazyAdder(10);
+// let func2 = func1(20);
+// let total = func2(3);
+// console.log(total); // prints 33
+
+
+
+// Volume**************************************************************************************
+// function recVolume(height) {
+//     let dimensions = [height];
+//     const _measure = (num) => {
+//       if (dimensions.length < 3) {
+//         dimensions.push(num);
+//       }
+//       if (dimensions.length === 3) {
+//         let sum = dimensions.reduce((acc, el) => (acc *= el));
+//         return sum;
+//       } else {
+//         return _measure;
+//       }
+//     };
+//     return _measure;
+//   }
+
+//   let table1 = recVolume(5); // returns a function
+//   table1(4); // returns a function
+//   console.log(table1(3)); // prints 60
+//   console.log(table1(145)); // STILL prints 60
+
+// //   Example 3:
+//   let table2 = recVolume(3); // returns a function
+//   table2(2); // returns a function
+//   console.log(table2(1)); // prints 6
+//   console.log(table2(75)); // STILL prints 6
+
+
+
+
+// Dynamic Divide***********************************************************************************
+// function dynamicDivide(divisor) {
+//     return function (dividend) {
+//       return dividend / divisor;
+//     };
+//   }
+
+//   const halfer = dynamicDivide(2); // returns a function
+// console.log(halfer(20)); // returns 10
+
+// const divideByThree = dynamicDivide(3);
+// console.log(divideByThree(30)); // returns 10
+
+// const  divideByFive = dynamicDivide(5);
+// console.log(divideByFive(50)); // returns 10
