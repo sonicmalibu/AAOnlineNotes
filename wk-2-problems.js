@@ -1772,3 +1772,38 @@
 //   threeCoins(25); // returns a function
 //   threeCoins(5); // returns a function
 //   console.log(threeCoins(10)); // prints [ 25, 5, 10 ]
+
+
+
+// Curried Sum**********************************************************************************************
+// function curriedSum(numArgs) {
+//     let numbers = [];
+
+//     function _curriedSum(num) {
+//       numbers.push(num);
+
+//       if (numbers.length === numArgs) {
+//         let total = 0;
+//         numbers.forEach(n => {
+//           total += n;
+//         });
+//         return total;
+//       } else {
+//         return _curriedSum;
+//       }
+//     }
+
+//     return _curriedSum;
+//   }
+
+//   //Example:
+// // 1
+// const sum = curriedSum(4); // returns a function
+// console.log(sum(5))// returns a function
+// console.log(sum(20)) // returns a function
+// console.log(sum(30)) // returns a function
+// console.log(sum(20)); // => returns 75
+
+// 2
+// this function can also be invoked like this:
+// const sum = curriedSum(3)(2)(1)(7); // => returns 10
