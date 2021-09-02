@@ -1376,6 +1376,9 @@
 // let result1 = addFive(0); // returns 5
 // let result2 = addFive(10); // returns 15
 // let result3 = addFive(37); // returns 42
+// console.log(result1);
+// console.log(result2);
+// console.log(result3);
 
 
 
@@ -1702,3 +1705,70 @@
 // //   Example 2:
 //   let twentyPercent = coupon(0.2);
 //   console.log(twentyPercent([10, 20, 30])); // [ 8, 16, 24 ]
+
+
+
+
+// Arrow Reverse**************************************************************************************
+
+// let reverseStr = (str) => str.split("").reverse().join("");
+
+// let result1 = reverseStr("hello"); // returns "olleh"
+// let result2 = reverseStr("garden"); // returns "nedrag"
+// let result3 = reverseStr("potato"); // returns "otatop"
+// console.log(result1);
+// console.log(result2);
+// console.log(result3);
+
+
+
+// Planned Intersection*********************************************************************************
+// function plannedIntersect(firstArr) {
+//     return (secondArr) => {
+//       let arr = [];
+//         firstArr.forEach(function(ele) {
+//             if (secondArr.indexOf(ele) > -1) {
+//                 arr.push(ele);
+//             }
+//         })
+//       return arr;
+//   }
+// }
+
+//   let abc = plannedIntersect(["a", "b", "c"]); // returns a function
+// console.log(abc(["b", "d", "c"])); // returns [ 'b', 'c' ]
+
+// // Example 2:
+// let fame = plannedIntersect(["f", "a", "m", "e"]); // returns a function
+// console.log(fame(["a", "f", "z", "b"])); // returns [ 'f', 'a' ]
+
+
+
+// Coin Collection*************************************************************************************
+// function coinCollector(numCoins) {
+//     let coins = [];
+//     let collect = (coin) => {
+//       coins.push(coin);
+//       if (coins.length >= numCoins) {
+//         return coins;
+//       } else {
+//         return collect;
+//       }
+//     };
+//     return collect;
+//   }
+
+// //   Example 1:
+//   let oneCoin = coinCollector(1); // returns a function
+//   console.log(oneCoin(10)); // prints [10]
+
+// // Example 2:
+//   let twoCoins = coinCollector(2); // returns a function
+//   twoCoins(25); // returns a function
+//   console.log(twoCoins(10)); // prints [25, 10]
+
+// // Example 3:
+//   let threeCoins = coinCollector(3); // returns a function
+//   threeCoins(25); // returns a function
+//   threeCoins(5); // returns a function
+//   console.log(threeCoins(10)); // prints [ 25, 5, 10 ]
