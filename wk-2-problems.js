@@ -1641,3 +1641,64 @@
 
 // const  divideByFive = dynamicDivide(5);
 // console.log(divideByFive(50)); // returns 10
+
+
+
+// Smoothie Machine********************************************************************************************
+// let smoothieMachine = (...ingredients) => {
+//     return function (...moreIngredients) {
+//       ingredients = ingredients.concat(moreIngredients);
+
+//       return "I'm having a smoothie with " + ingredients.join(" and ");
+//     }
+//   };
+
+//   let smoothie1 = smoothieMachine();
+
+// console.log(smoothie1("milk"));
+// // prints "I'm having a smoothie with milk"
+// console.log(smoothie1("kale", "spinach"));
+// // prints "I'm having a smoothie with milk and kale and spinach"
+// console.log(smoothie1("honey", "pears", "berries"));
+// // prints "I'm having a smoothie with milk and kale and spinach and honey and pears and berries"
+
+// let smoothie2 = smoothieMachine("apples", "bananas", "berries");
+// console.log(smoothie2("pineapple"));
+// // prints "I'm having a smoothie with apples and bananas and berries and pineapple"
+
+
+
+// Closure Dynamic****************************************************************************
+// function dynamicMultiply(num) {
+//     let multiplier = num;
+
+//     return function(factor) {
+//       return multiplier * factor;
+//     };
+//   }
+
+// const doubler = dynamicMultiply(2); // returns a functions
+// console.log(doubler(5)); // returns 10
+
+// const tripler = dynamicMultiply(3);
+// console.log(tripler(5)); // returns 15
+
+// const multiplyByFive = dynamicMultiply(5);
+// console.log(multiplyByFive(5)); // returns 25
+
+
+
+
+// Coupon******************************************************************************************
+// function coupon(discount) {
+//     return (prices) => {
+//       return prices.map((price) => (price -= price * discount));
+//     };
+//   }
+
+//   let tenPercent = coupon(0.1);
+//   console.log(tenPercent([10, 20, 30])); // [ 9, 18, 27 ]
+
+// //   Example 2:
+//   let twentyPercent = coupon(0.2);
+//   console.log(twentyPercent([10, 20, 30])); // [ 8, 16, 24 ]
