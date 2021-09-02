@@ -1423,4 +1423,36 @@
 
 
 
+// Arrow Average Value*******************************************************************************
+// let arrowAvgValue = array => {
+//     let sum = array.reduce((el, sum = 0) => (sum += el));
 
+//     let avg = sum / array.length;
+//     return avg;
+//   };
+
+// console.log(arrowAvgValue([10, 20])); // => 15
+// console.log(arrowAvgValue([2, 3, 7])); // => 4
+// console.log(arrowAvgValue([100, 60, 64])); // => 74.66666666666667
+
+
+
+// Arrow Mirror Array*****************************************************************************
+// const mirrorArray = (array) => {
+//     let arr = [];
+
+//     for (let i = 0; i < array.length; i += 1) {
+//       let el = array[i];
+//       arr.push(el);
+//     }
+
+//     for (let i = array.length - 1; i >= 0; i -= 1) {
+//       let el = array[i];
+//       arr.push(el);
+//     }
+
+//     return arr;
+//   };
+
+// console.log(mirrorArray([1,2,3])); // => [ 1, 2, 3, 3, 2, 1 ]
+// console.log(mirrorArray(['a', 'b', 'c', 'd'])); // => [ 'a', 'b', 'c', 'd', 'd', 'c', 'b', 'a' ]
