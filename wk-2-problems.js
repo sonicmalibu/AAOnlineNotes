@@ -1508,4 +1508,63 @@
 
 
 
+// Interupter*******************************************************************************************
+// function interrupter(interruptingWord) {
+//     return function (sentence) {
+//       let words = sentence.split(" ");
+//       let newString = "";
 
+//       for (let index = 0; index < words.length; index++) {
+//         let word = words[index];
+//         if (index === words.length - 1) {
+//           newString += word;
+//         } else {
+//           newString += word + " " + interruptingWord + " ";
+//         }
+//       }
+
+//       return newString;
+//     };
+//   }
+
+// let rudePerson = interrupter("what"); // => returns a function
+// console.log(rudePerson("how are you")); // prints "how what are what you"
+// console.log(rudePerson("I like pie")); // prints "I what like what pie"
+
+
+// // Invoking the interrupter function again:
+// let rudePerson2 = interrupter("yo"); // => returns a function
+// console.log(rudePerson2("I love dogs")); // prints "I yo love yo dogs"
+
+
+// Count Down****************************************************************************************
+// function countDownTimer(num) {
+//     if (num === 0) return "Happy New Year!";
+//     const _count = () => {
+//       num -= 1;
+//       if (num <= 0) {
+//         return "Happy New Year!";
+//       } else {
+//         return _count;
+//       }
+//     };
+//     return _count;
+//   }
+
+// //   Example 1:
+//   console.log(countDownTimer(0)); // prints "Happy New Year!"
+
+// // Example 3:
+//   let oneDay = countDownTimer(1); // returns a function
+//   console.log(oneDay()); // prints "Happy New Year!"
+
+// // Example 3:
+//   let twoDays = countDownTimer(2); // returns a function
+//   console.log(twoDays()); // returns a function
+//   console.log(twoDays()); // prints "Happy New Year!"
+
+// // Example 4:
+//   let threeDays = countDownTimer(3); // returns a function
+//   console.log(threeDays()); // returns a function
+//   console.log(threeDays()); // returns a function
+//   console.log(threeDays()); // prints "Happy New Year!"
