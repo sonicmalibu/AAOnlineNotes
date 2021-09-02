@@ -1376,3 +1376,33 @@
 // let result1 = addFive(0); // returns 5
 // let result2 = addFive(10); // returns 15
 // let result3 = addFive(37); // returns 42
+
+
+
+// Arrow Full Name******************************************************************************
+
+// let arrowGetFullName = person => person.firstName + " " + person.lastName;
+
+// let p1 = {firstName: 'John', lastName: 'Doe'};
+// console.log(arrowGetFullName(p1)); // => 'John Doe'
+// let p2 = {firstName: 'Charlie', lastName: 'Brown', age: 9};
+// console.log(arrowGetFullName(p2)); // => 'Charlie Brown'
+
+
+
+// Arrow My Map*****************************************************************************
+
+// let arrowMyMap = (array, cb) => {
+//     let mapped = [];
+
+//     array.forEach(el => mapped.push(cb(el)));
+//     return mapped;
+//   };
+
+//   let result1 = arrowMyMap([100, 25, 81, 64], Math.sqrt);
+// console.log(result1);   // [ 10, 5, 9, 8 ]
+
+// const yell = el => el.toUpperCase() + '!'
+
+// let result2 = arrowMyMap(['run', 'Forrest'], yell);
+// console.log(result2);   // [ 'RUN!', 'FORREST!' ]
