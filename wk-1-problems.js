@@ -1285,7 +1285,7 @@
 // function yeller(words) {
 //     let arr = [];
 //     words.forEach(function(word) {
-//         arr.push(word.toUpperCase());
+//         arr.push(word.toUpperCase().concat('!'));
 //     })
 //     return arr;
 // }
