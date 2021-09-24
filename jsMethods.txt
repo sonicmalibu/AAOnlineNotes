@@ -28,7 +28,6 @@ Returns the number's value.
 
 ***********Boolean Methods*************
 Here is a list of each method and its description.
-
 Sr.No.	Method & Description
 1	toSource()
 Returns a string containing the source of the Boolean object; you can use this string to create an equivalent object.
