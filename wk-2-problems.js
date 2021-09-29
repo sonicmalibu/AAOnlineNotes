@@ -1339,26 +1339,31 @@
 
 
 // My Simple Reduce*****************************************************************************************************************
-// function mySimpleReduce(array, cb) {
-//     accum = array[0];
+// function mySimpleReduce(array, cb, initial) {
+//     if (initial === undefined) {
+//         accum = array[0];
+//     } else {
+//         accum = initial;
+//     }
+
 //     let sliced = array.slice(1);
-//     sliced.forEach(function(ele) {
+//     sliced.forEach(function (ele) {
 //         accum = cb(accum, ele);
 //     })
 //     return accum;
 // }
 
-// let result1 = mySimpleReduce([5, 3, 2, 4], function(sum, el) {
+// let result1 = mySimpleReduce([5, 3, 2, 4], function (sum, el) {
 //     return sum + el;
 // });
 // console.log(result1); // 14
 
-// let result2 = mySimpleReduce([4, 6, 2], function(product, el) {
+// let result2 = mySimpleReduce([4, 6, 2], function (product, el) {
 //     return product * el;
 // });
 // console.log(result2); // 48
 
-// let result3 = mySimpleReduce([4, 6, 2, 8, 3], function(max, el) {
+// let result3 = mySimpleReduce([4, 6, 2, 8, 3], function (max, el) {
 //     if (el > max) {
 //         return el;
 //     } else {
